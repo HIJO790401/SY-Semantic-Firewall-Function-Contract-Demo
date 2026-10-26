@@ -9,6 +9,11 @@
       "sha256": "5b4a42f83d3b1d8b6582348f8166ab4fe839f0ddae80ce4f8f36e3a5a8440f8d"
     },
     {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
       "path": "AUTHORS.md",
       "bytes": 1915,
       "sha256": "f3f32802f284f0de72ed3e8215fc16bac45e45d4766b13dd3e70e63de60cf4f0"
@@ -162,6 +167,11 @@
       "path": "evidence/small-model-prior-parity.json",
       "bytes": 2057,
       "sha256": "c0dbd70df1bfcdd4404f1160805f9830d1f0415a66bdf35b6e525453aaf401be"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1145,
+      "sha256": "088a2d4475f5fd896d996ebb83242ecccb2794a0417579bf54c3dc0319fc0ca4"
     },
     {
       "path": "model-pins.json",
