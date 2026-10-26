@@ -10,8 +10,8 @@
     },
     {
       "path": "AUTHORS.md",
-      "bytes": 933,
-      "sha256": "5389d8839080f2c387195841056e50b9e529c94820f3238a7ddb9b3c03913902"
+      "bytes": 1915,
+      "sha256": "f3f32802f284f0de72ed3e8215fc16bac45e45d4766b13dd3e70e63de60cf4f0"
     },
     {
       "path": "CITATION.cff",
@@ -49,14 +49,19 @@
       "sha256": "fde76a1d20b5cc14438aedb3cc3e15b1dabb3dbaba43ae1d949594d7ca83dece"
     },
     {
+      "path": "README.en.md",
+      "bytes": 12841,
+      "sha256": "6822a3a3fa842bb340a444169fbddb7d1d1214ad723cf272a39818035407257b"
+    },
+    {
       "path": "README.md",
-      "bytes": 12206,
-      "sha256": "2c4efbf9569bc928563d7062a44173ebfd6e11dd795e8609acafcfc127a287fb"
+      "bytes": 22734,
+      "sha256": "7af8eee901d32cca2783d82634240947b846b7732eb052cdf7b133006f5f99eb"
     },
     {
       "path": "README.zh-TW.md",
-      "bytes": 9127,
-      "sha256": "65e66ad62a48653d29f5d8542f5bbaedbaf1191199e88597f4f635bd649fd2d2"
+      "bytes": 9647,
+      "sha256": "b9304a69a9efbd92564886a2a9a5e8f056eb10fb011b3f325236d4c79cdc6b39"
     },
     {
       "path": "RUN.md",
