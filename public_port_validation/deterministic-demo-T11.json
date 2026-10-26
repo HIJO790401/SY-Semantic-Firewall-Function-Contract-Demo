@@ -1,0 +1,37 @@
+{
+  "mode": "DETERMINISTIC_JS_DEMO_NOT_MODEL_INFERENCE",
+  "model_calls": 0,
+  "model_tokens": null,
+  "model_price": "NOT_APPLICABLE_NO_MODEL_CALL",
+  "task_id": "T11",
+  "result": {
+    "accepted": false,
+    "executed": false,
+    "state": "STOP",
+    "reason": "POLICY_FORBIDDEN",
+    "result": null,
+    "receipt": {
+      "version": "safe-typed-js-prior-permit-router-v0.2",
+      "task_id": "T11",
+      "task_sha256": "8e2a93ec809b18b044b94618d4f7735cf71d7d1e07ef0f5d9a3781447bdf1048",
+      "state": "STOP",
+      "terminal_reason": "POLICY_FORBIDDEN",
+      "proposal_attempts": 0,
+      "execution_count": 0,
+      "execution_receipt": null,
+      "prior_permit": null,
+      "authorization_events": [],
+      "last_decision": {
+        "state": "STOP",
+        "reason": "POLICY_FORBIDDEN"
+      },
+      "observer_error": null,
+      "model_arithmetic_used": false
+    }
+  },
+  "terminal_replay": {
+    "new_executions": 0,
+    "reason": "TERMINAL_NO_RECALL"
+  },
+  "scope": "Validates host execution only, not model understanding or model selection performance"
+}

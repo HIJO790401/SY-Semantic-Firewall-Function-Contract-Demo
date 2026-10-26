@@ -1,0 +1,117 @@
+{
+  "utc": "2026-10-26T03:56:22.130167+00:00",
+  "independent_review": "APPROVED_FOR_BOUNDED_EXECUTION",
+  "scope": "One Owner-authorized separate 2x2 model/interface study plus production sufficiency selector; same frozen 12 task facts; no changes to old studies or private canon.",
+  "owner_approval_ref": "ORIGINAL_OWNER_AUTHORIZATION_REDACTED_PUBLIC_METADATA",
+  "files_sha256": {
+    "protocol.candidate.json": "6eb9656ac30ce7f976acfad50cdc87bf5ef87b1b056050c4d15054d3368fd2ab",
+    "model-pins.json": "85ea99b978988a47ee06c42f6641ae6efd785efe5994b736f5e74ea342fece87",
+    "development.tasks.json": "4e2e780034158a0987241efb00f03f068ebb429b46540e7bcc06a4acd8624315",
+    "acceptance.tasks.json": "bb6a08c16b02123ce7cb0bb81a767fea60929de975eb77263e0ed8516a0a3a9f",
+    "research-contract.base.json": "4829249c0d7a146331a849a06c394fd4ec066202b272b1cc861829e5218b2208",
+    "ratecard.json": "105a834ab54828ef9135dca100a6ce255d3a4ed915eb939095193408cce2ee33",
+    "package.json": "97e6296399a84319729066fa438f3757e72c4fa23134f32682bd0b42d8034862",
+    "src/chain.mjs": "1f7e385c9421cc5fdc6f9a5a825d489f9e2d5e6631b0b243a995e3a6fcb33ed3",
+    "src/natural-command.mjs": "9e020ed6f973e112402c207994a775d4e479fad18efeb0cc4357ef0cbde27adf",
+    "src/ollama-adapter.mjs": "da54ffcd4d99c218dc1393581194c26c54f1617c3de110aaa5f3cadc683df76e",
+    "src/pricing.mjs": "9b252e8fe6b2d0a074d43a1d06de463ddf54a9f2b9c45b4a8f420c1439bc880f",
+    "src/proposal-schema.mjs": "fa5b1900344ecf59977362def0fe22d95b1000b8b1b3b490fa0ed1d1195e94fa",
+    "src/report-summary.mjs": "447f0f52b3b7b1a5d5789fb1d8b2fa2a04af4e2b1b0ef64f92fa18f40fc7c1a6",
+    "src/router.mjs": "797d716ea1d377b35a1fdc9189cfaf098a4a2a62eda15b885f3eee83ef01cce1",
+    "src/run-one-command.mjs": "d79f6b73923cf1d02622705bc51b9adc312754b0f78850af8f7e826450eb96e3",
+    "src/selector.mjs": "e7bc0abd8b5884634dba55cbcbd2cfb21a81b275bff1f2ff55a2fa709f806ac2",
+    "scripts/run-study.mjs": "4169eae9a015c83ade9273c0ec8d9fd35480ed0355432b1c6185c10e2181b0b5",
+    "evidence/small-model-prior-parity.json": "ccd0e8bf54e86e64bb0b7dab36f8bf2cf1a6c7525fcf27033d952a07ffb5c187",
+    "evidence/prices/ratecard.json": "7056c5af7fba675b0b51bb302b56d3aca3b92ed6c715ad5d9b1751c92bc3948b",
+    "evidence/prices/evidence_sources.json": "104adfb0e5b1af3fb6907cd27e7eabdd862bcdb489847ced115aea2b4b34dc82",
+    "evidence/prices/research_summary.md": "9c925406e66d88c9233394b2461e4ed6d6b2d42bc95ec62d0a473fd0e0b4a90a",
+    "evidence/planned-48-comparison-slots.json": "eda0fba754ef99775fb65737f6845cb19c4eca578bd19708d0e5589346fc942c"
+  },
+  "external_files_sha256": {
+    "<ORIGINAL_LOCAL_WORKSPACE>/token_stop_ab_v02/sy-token-stop-ab-v0.2/src/gate.mjs": "e8b5ce895590b8d4298b826ae4f21c20523b2b3174558b9b1d99fc97c2817ddf",
+    "<ORIGINAL_LOCAL_WORKSPACE>/token_stop_ab_v02/sy-token-stop-ab-v0.2/src/contract.mjs": "60671cb376b668ed667b4367a8af16d3571afd2f93f4a6397b68573e8749e737",
+    "<ORIGINAL_LOCAL_WORKSPACE>/token_stop_ab_v02/sy-token-stop-ab-v0.2/src/adapter.mjs": "29291992f2a74f507de679eb405b6c55cf0606d6797d36c193619d2440bb2eac",
+    "<ORIGINAL_LOCAL_WORKSPACE>/token_stop_js_router_v01/acceptance.tasks.json": "bb6a08c16b02123ce7cb0bb81a767fea60929de975eb77263e0ed8516a0a3a9f",
+    "<ORIGINAL_LOCAL_WORKSPACE>/token_stop_js_router_v01/development.tasks.json": "4e2e780034158a0987241efb00f03f068ebb429b46540e7bcc06a4acd8624315",
+    "<ORIGINAL_LOCAL_WORKSPACE>/token_stop_model_selector_v02/deployment_qwen3_1_7b/model-pin.json": "3dcd27e6d926b80f1bfeed11aa4661e4b88c86140e87165dc01ee29dd02b81be",
+    "<ORIGINAL_LOCAL_WORKSPACE>/token_stop_model_selector_v02/deployment_qwen3_1_7b/blob-verification.json": "61b7ba3cfc6fd0882920db0c799af0b0435c4e1e4350a7bb8829b9800cfb469c",
+    "<ORIGINAL_LOCAL_WORKSPACE>/token_stop_model_selector_v02/deployment_qwen3_1_7b/deployment-receipt.json": "c96719b5df084f9c872885bc58e0dc0e471bf5f7158d936b5959fa0834965653"
+  },
+  "independent_offline_tests": {
+    "pricing": {
+      "passed": 26,
+      "failed": 0,
+      "real_model_calls": 0,
+      "path": "<ORIGINAL_LOCAL_WORKSPACE>/token_stop_ab_review/model_selector_v02_audit/independent_pricing_review_final.json"
+    },
+    "selector": {
+      "passed": 26,
+      "failed": 0,
+      "real_model_calls": 0,
+      "path": "<ORIGINAL_LOCAL_WORKSPACE>/token_stop_ab_review/model_selector_v02_audit/independent_selector_review_final.json"
+    },
+    "permit_and_natural": {
+      "passed": 28,
+      "failed": 0,
+      "real_model_calls": 0,
+      "path": "<ORIGINAL_LOCAL_WORKSPACE>/token_stop_ab_review/model_selector_v02_audit/independent_permit_and_natural_review_final.json"
+    },
+    "two_axis": {
+      "passed": 10,
+      "failed": 0,
+      "real_model_calls": 0,
+      "path": "<ORIGINAL_LOCAL_WORKSPACE>/token_stop_ab_review/model_selector_v02_audit/independent_two_axis_review_final.json"
+    }
+  },
+  "independent_offline_total_passed": 90,
+  "independent_public_rate_check": "<ORIGINAL_LOCAL_WORKSPACE>/token_stop_ab_review/model_selector_v02_audit/INDEPENDENT_PUBLIC_RATE_CHECK.json",
+  "bounds": {
+    "new_generation_calls_expected": 56,
+    "new_generation_calls_worst_fallback_and_hard_cap": 64,
+    "development_calls_including_two_large_model_parity_witnesses": 8,
+    "A_natural_research_calls": 24,
+    "B_JSON_function_research_calls_expected": 16,
+    "production_selector_calls_expected": 8,
+    "production_selector_calls_max": 16,
+    "extra_calibration_calls": 0,
+    "per_request_output_tokens_max": 64,
+    "logical_token_reservation": 96000,
+    "context": 2048,
+    "CPU_threads": 3,
+    "GPU_layers": 0,
+    "wall_outer_seconds": 1200,
+    "wall_internal_seconds": 1180,
+    "paid_API_calls": 0,
+    "retries": 0
+  },
+  "design_checks": [
+    "Same 12 acceptance tasks, natural-language request, operands and global semantic rule text across both interfaces and both pinned models; no calculated answer supplied",
+    "A direct natural answer accepts standalone integer, COMPLETE integer or exact answer JSON; correct MODEL_REPORTED STOP/OwnerReturn credited; no function-proposal format requirement",
+    "A actual HTTP builder contains no typed function JSON schema; B uses explicit schema; difference disclosed",
+    "B exposes Owner JSON function command (function/arguments/request), then actual model proposal, bound prior permission return, one-time allowlisted JS execution, and immutable v0.2 completion gate",
+    "Representation, structured decoding and controller are jointly changed; not a single-variable prompt-only causal experiment",
+    "Prior permit issued at execution_count0; exact function/arguments/task/proposal/version/Owner scope/instance bound; missing/mismatch/STOP/replay cannot execute",
+    "A/B order counterbalanced per task/model before outputs; model order is fixed and not a hardware performance randomization",
+    "Only explicit research mode deliberately calls both models; production stops immediately when first selected model is sufficient",
+    "Selector falls back only for listed model proposal/quality failures; missing Owner definition, forbidden policy, truncation, infra/usage/counter/budget failures do not auto-escalate",
+    "Public Boardwalk same-named upstream model input/output rates independently checked; valuation uses explicit no-cache-discount reference, not local invoice or launch-date price",
+    "Local settlement PRICE_UNDEFINED and Owner-return responsibility remain separate from reference valuation and valid task completion",
+    "Large model first two development payload hashes are the only bootstrap-authorized generations; each raw count must match actual input before subsequent work; no duplicate calibration budget",
+    "New adapters may prepare per block or production candidate, while global call/token ledger is never reset"
+  ],
+  "primary_outcomes": [
+    "Per-model/per-interface qualified valid completion and invalid STOP/Owner-return under same semantic criterion",
+    "Observed prior-permission then actual JS execution order and terminal replay",
+    "Actual production no-escalation after sufficient delivery",
+    "Exact logical token usage and externally referenced rates, with paid API/local compute/user-charge/fixed-quote distinctions"
+  ],
+  "limitations": [
+    "Controlled add/subtract/typed-boundary microtasks only; not original article A/B, commercial Y, private kernel or broad model equivalence",
+    "Natural model may correctly finish or STOP; external finite safety limits do not establish natural language is intrinsically unbounded",
+    "Host authoritative task policy is predeclared; invalid B cases do not test model inference of missing authority",
+    "Provider BF16/vLLM public reference deployment differs from local Q4_K_M/Ollama; cached local tokens are not assumed remote discount eligible",
+    "Same result+criterion supports no observed additional quality value for this task; model size alone does not justify a premium",
+    "This audit invokes no actual models; 90 independent checks are offline tests, not 90 real model samples"
+  ],
+  "runtime_condition": "If source/model identity, count/usage, budget/deadline or prior-permit/terminal invariants fail: STOP, preserve partial raw evidence, no silent restart, no extra model calls or post-output task/prompt/rubric changes."
+}

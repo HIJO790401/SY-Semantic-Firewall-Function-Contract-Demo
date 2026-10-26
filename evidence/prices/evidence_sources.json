@@ -1,0 +1,102 @@
+[
+  {
+    "id": "S01",
+    "title": "Qwen3 0.6B inference API | Boardwalk Docs",
+    "url": "https://www.boardwalk.cloud/docs/models/Qwen/Qwen3-0.6B",
+    "primary_source": true,
+    "observed_at_utc": "2026-10-26T03:39:29Z",
+    "evidence": "Pricing table gives USD/M values 0.05 input, 0.15 output, 0.005 cache read, 0 cache write (currency confirmed by S03). Configuration explicitly points to Qwen/Qwen3-0.6B, bfloat16, no quantization, vLLM, active. Revision pinned at deploy; no concrete commit supplied."
+  },
+  {
+    "id": "S02",
+    "title": "Qwen3 1.7B inference API | Boardwalk Docs",
+    "url": "https://www.boardwalk.cloud/docs/models/Qwen/Qwen3-1.7B",
+    "primary_source": true,
+    "observed_at_utc": "2026-10-26T03:39:29Z",
+    "evidence": "Pricing table gives USD/M values 0.10 input, 0.25 output, 0.01 cache read, 0 cache write (currency confirmed by S03). Configuration explicitly points to Qwen/Qwen3-1.7B, bfloat16, no quantization, vLLM, active. Revision pinned at deploy; no concrete commit supplied."
+  },
+  {
+    "id": "S03",
+    "title": "Models | Boardwalk Docs",
+    "url": "https://www.boardwalk.cloud/docs/models",
+    "primary_source": true,
+    "observed_at_utc": "2026-10-26T03:39:47Z",
+    "evidence": "Catalog independently lists exactly the two models at matching input/output values. It explicitly identifies USD per million tokens. The catalog has two rows; capability qualification is not verified. Public IDs identify repository models rather than private deployments."
+  },
+  {
+    "id": "S04",
+    "title": "Pricing | Boardwalk Docs",
+    "url": "https://www.boardwalk.cloud/docs/pricing",
+    "also_opened_url": "https://www.boardwalk.cloud/pricing",
+    "primary_source": true,
+    "observed_at_utc": "2026-10-26T03:39:47Z",
+    "evidence": "Ordinary catalog inference uses prepaid credit token billing, separate from private deployment GPU-time billing. Cache read and write are distinct from uncached input; generation includes reasoning. No reported cache counts means prompt is billed uncached. New organizations have no initial credit and must purchase at least $5 before service. Prices are revision-specific, not traffic-dependent."
+  },
+  {
+    "id": "S05",
+    "title": "Metering and receipts | Boardwalk Docs",
+    "url": "https://www.boardwalk.cloud/docs/metering",
+    "primary_source": true,
+    "observed_at_utc": "2026-10-26T03:40:54Z",
+    "evidence": "Token categories are separated on receipt. Output includes reasoning and tool calls. Rates use integer microdollars per million tokens; sum category charges, divide by one million, round up once to whole microdollar per request. Unknown cache counts are null, not zero. Example receipt rates are illustrative, not model rate evidence."
+  },
+  {
+    "id": "S06",
+    "title": "Alibaba Introduces Qwen3, Setting New Benchmark in Open-Source AI with Hybrid Reasoning",
+    "url": "https://www.alibabagroup.com/en-US/document-1853940226976645120",
+    "primary_source": true,
+    "published_date": "2025-04-29",
+    "observed_at_utc": "2026-10-26T03:40:54Z",
+    "evidence": "Names both 0.6B and 1.7B among released open weights. States downloadable weights are freely available, but Model Studio API availability is forthcoming. No input, output, or cache tariff is published in the announcement."
+  },
+  {
+    "id": "S07",
+    "title": "Qwen3: Think Deeper, Act Faster | Qwen",
+    "url": "https://qwenlm.github.io/blog/qwen3/",
+    "primary_source": true,
+    "published_date": "2025-04-29",
+    "observed_at_utc": "2026-10-26T03:39:58Z",
+    "evidence": "Original release blog confirms model family and released sizes. No launch API tariff verified. Page advertises migration to Qwen's newer blog, but original article remains retrievable."
+  },
+  {
+    "id": "S08",
+    "title": "Alibaba Cloud Model Studio: Model inference pricing",
+    "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "primary_source": true,
+    "source_last_updated": "2026-10-22",
+    "observed_at_utc": "2026-10-26T03:39:47Z",
+    "evidence": "Opened current official inference price page; exact-text finds for qwen3-0.6b and qwen3-1.7b both returned no matches. This proves only absence in this retrieved current page, not that such rates never existed."
+  },
+  {
+    "id": "S09",
+    "title": "阿里云百炼 模型调用价格",
+    "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "primary_source": true,
+    "observed_at_utc": "2026-10-26T03:39:47Z",
+    "evidence": "Opened current mainland Chinese official inference price page; exact-text finds for qwen3-0.6b and qwen3-1.7b both returned no matches. No historical conclusions inferred from current omission."
+  },
+  {
+    "id": "S10",
+    "title": "Catalog models | Boardwalk Docs",
+    "url": "https://www.boardwalk.cloud/docs/api/catalog-models",
+    "primary_source": true,
+    "observed_at_utc": "2026-10-26T03:40:15Z",
+    "evidence": "Documentation describes revision and weight-commit fields but sample contains cfg_example and a placeholder hexadecimal commit. These must not be used as a verified config pin. No API endpoint was invoked."
+  },
+  {
+    "id": "S11",
+    "title": "About | Boardwalk",
+    "url": "https://www.boardwalk.cloud/about",
+    "primary_source": true,
+    "observed_at_utc": "2026-10-26T03:40:54Z",
+    "evidence": "Identifies Boardwalk as an inference platform operated by Robot Networks Inc. No geographic serving region established."
+  },
+  {
+    "id": "S12",
+    "title": "官方公告 | PPIO 派欧云",
+    "url": "https://ppio.cn/docs/announcement/announcement",
+    "primary_source": true,
+    "observed_at_utc": "2026-10-26T03:40:35Z",
+    "evidence": "Provider's May 14, 2025 announcement records retirement of qwen/qwen3-0.6b-fp8 and qwen/qwen3-1.7b-fp8 effective May 28, 2025. It does not state their historical rate. No rate inferred from this evidence."
+  }
+]

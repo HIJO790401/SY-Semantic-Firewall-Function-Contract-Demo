@@ -1,0 +1,25 @@
+{
+  "rateCardId": "BOARDWALK-EXACT-QWEN-NOCACHE-REFERENCE-20261026",
+  "version": "observed-2026-10-26-v1",
+  "currency": "USD",
+  "currencyMinorExponent": 6,
+  "scope": "PUBLISHED_PROVIDER_INFERENCE_REFERENCE",
+  "sourceEvidence": [
+    "https://www.boardwalk.cloud/docs/models/Qwen/Qwen3-0.6B",
+    "https://www.boardwalk.cloud/docs/models/Qwen/Qwen3-1.7B",
+    "evidence/prices/ratecard.json",
+    "evidence/prices/evidence_sources.json"
+  ],
+  "verifiedBy": "independent_price_research_agent:provider_model_and_catalog_pages_agree; observed2026-10-26",
+  "verification": "VERIFIED",
+  "modelRates": {
+    "qwen3:0.6b": {
+      "inputMinorPerMillion": 50000,
+      "outputMinorPerMillion": 150000
+    },
+    "qwen3:1.7b": {
+      "inputMinorPerMillion": 100000,
+      "outputMinorPerMillion": 250000
+    }
+  }
+}

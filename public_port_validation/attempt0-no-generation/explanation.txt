@@ -1,0 +1,1 @@
+Ollama server failed before metadata/model load/generation: default home was read-only. Wrapper revised to reuse an operator-initialized runtime home; it will not create keys.

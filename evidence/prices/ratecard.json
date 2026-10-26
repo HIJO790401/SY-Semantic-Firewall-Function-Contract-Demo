@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0",
+  "research_date_utc": "2026-10-26",
+  "observed_at_utc": "2026-10-26T03:41:00Z",
+  "purpose": "REFERENCE_PROVIDER_VALUATION",
+  "status": "CURRENT_EXACT_MODEL_PROVIDER_RATES_VERIFIED",
+  "local_paid_settlement_status": "PRICE_UNDEFINED",
+  "active_experiment_changed": false,
+  "paid_api_calls_made": false,
+  "currency": "USD",
+  "rate_unit_tokens": 1000000,
+  "currency_micro_unit_exponent": 6,
+  "provider": {
+    "name": "Boardwalk",
+    "operator": "Robot Networks Inc.",
+    "deployment_scope": "Remote Boardwalk public catalog; bfloat16, unquantized, vLLM",
+    "geographic_region": null,
+    "region_status": "NOT_STATED_IN_VERIFIED_PAGES"
+  },
+  "pricing_date": {
+    "effective_from": null,
+    "effective_date_status": "NOT_PUBLISHED_IN_VERIFIED_PAGES",
+    "as_of_date": "2026-10-26",
+    "basis": "Current public documentation opened on observation date; not a historical or launch-date price"
+  },
+  "free_quota": {
+    "catalog_is_free": false,
+    "initial_credits": 0,
+    "minimum_credit_purchase_usd": 5,
+    "ordinary_rate_not_trial": true,
+    "notes": "Pricing documentation says new organizations start at zero and inference is not served before first purchase. No free catalog token allowance was applied."
+  },
+  "models": [
+    {
+      "local_model_id": "qwen3:0.6b",
+      "local_quantization": "Q4_K_M",
+      "provider_model_id": "Qwen/Qwen3-0.6B",
+      "source_weights_repo": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "provider_dtype": "bfloat16",
+      "provider_quantization": "none",
+      "provider_engine": "vllm",
+      "provider_status_as_documented": "active",
+      "context_tokens": 32768,
+      "source_revision": null,
+      "config_revision": null,
+      "revision_status": "Individual model page says pinned at deploy; no actual revision obtained. API reference examples are not real evidence.",
+      "rates_usd_per_million_tokens": {
+        "uncached_input": "0.05",
+        "output_including_reasoning": "0.15",
+        "cache_read": "0.005",
+        "cache_write": "0.00"
+      },
+      "integer_rates_microusd_per_million_tokens": {
+        "uncached_input": "50000",
+        "output_including_reasoning": "150000",
+        "cache_read": "5000",
+        "cache_write": "0"
+      },
+      "rates_usd_per_token": {
+        "uncached_input": "0.00000005",
+        "output_including_reasoning": "0.00000015",
+        "cache_read": "0.000000005",
+        "cache_write": "0"
+      },
+      "rate_sources": [
+        "S01",
+        "S03"
+      ],
+      "billing_sources": [
+        "S04",
+        "S05"
+      ],
+      "local_vs_provider_equivalence": "Same exact named upstream model and repository, but not identical quantization, runtime, template, source revision, performance, token accounting, or paid deployment. Treat as external reference valuation only."
+    },
+    {
+      "local_model_id": "qwen3:1.7b",
+      "local_quantization": "Q4_K_M",
+      "provider_model_id": "Qwen/Qwen3-1.7B",
+      "source_weights_repo": "https://huggingface.co/Qwen/Qwen3-1.7B",
+      "provider_dtype": "bfloat16",
+      "provider_quantization": "none",
+      "provider_engine": "vllm",
+      "provider_status_as_documented": "active",
+      "context_tokens": 32768,
+      "source_revision": null,
+      "config_revision": null,
+      "revision_status": "Individual model page says pinned at deploy; no actual revision obtained. API reference examples are not real evidence.",
+      "rates_usd_per_million_tokens": {
+        "uncached_input": "0.10",
+        "output_including_reasoning": "0.25",
+        "cache_read": "0.01",
+        "cache_write": "0.00"
+      },
+      "integer_rates_microusd_per_million_tokens": {
+        "uncached_input": "100000",
+        "output_including_reasoning": "250000",
+        "cache_read": "10000",
+        "cache_write": "0"
+      },
+      "rates_usd_per_token": {
+        "uncached_input": "0.0000001",
+        "output_including_reasoning": "0.00000025",
+        "cache_read": "0.00000001",
+        "cache_write": "0"
+      },
+      "rate_sources": [
+        "S02",
+        "S03"
+      ],
+      "billing_sources": [
+        "S04",
+        "S05"
+      ],
+      "local_vs_provider_equivalence": "Same exact named upstream model and repository, but not identical quantization, runtime, template, source revision, performance, token accounting, or paid deployment. Treat as external reference valuation only."
+    }
+  ],
+  "computation": {
+    "reference_formula_usd": "(uncached_input_tokens * input_usd_per_M + output_tokens_including_reasoning * output_usd_per_M + cache_read_tokens * cache_read_usd_per_M + cache_write_tokens * cache_write_usd_per_M) / 1000000",
+    "boardwalk_receipt_formula_microusd": "ceil((uncached_input_tokens * input_microusd_per_M + output_tokens_including_reasoning * output_microusd_per_M + cache_read_tokens * cache_read_microusd_per_M + cache_write_tokens * cache_write_microusd_per_M) / 1000000), rounded once per request",
+    "cache_handling": "Separate categories; prompt_tokens includes cached and uncached tokens. Do not double-count cached prompt tokens. If cache counts are unreported, Boardwalk docs bill the full prompt at uncached input rate and mark cache usage unknown. For local estimate, label this as an explicit no-cache reference scenario, not observed remote usage.",
+    "reference_rounding": "Keep exact rational estimate plus separately labeled Boardwalk per-request rounded simulation if desired; do not round each token/category independently.",
+    "reasoning": "Provider output price covers all generated tokens including reasoning/tool calls, not final-answer-only tokens.",
+    "local_cost_warning": "External reference valuation is neither a local paid invoice nor an estimate of electricity, hardware amortization, or actual provider usage."
+  },
+  "launch_price": {
+    "status": "GAP_NO_LAUNCH_DATE_TOKEN_TARIFF_VERIFIED",
+    "model_launch_date": "2025-04-29",
+    "input": null,
+    "output": null,
+    "cache_read": null,
+    "cache_write": null,
+    "source_ids": [
+      "S06",
+      "S07",
+      "S08",
+      "S09"
+    ],
+    "reason": "Official Qwen and Alibaba launch evidence confirms these sizes released as open weights; Alibaba's April 29 announcement says Model Studio API access would become available soon. It does not publish a token tariff. Current official Alibaba inference-price pages lack these two exact model IDs. Current Boardwalk rates must not be backdated."
+  },
+  "rejected_methods": [
+    "No parameter-count interpolation",
+    "No Turbo/Plus/Max/4B/8B substitution",
+    "No training or fine-tuning tariff treated as inference",
+    "No open-weight download price or promotional quota treated as a zero per-token API rate",
+    "No secondary price aggregator or community article accepted as authoritative launch tariff"
+  ],
+  "gaps": [
+    "Boardwalk geographical serving region not stated in verified pages",
+    "Boardwalk tariff effective date and actual serving config revision not obtained",
+    "Alibaba launch-date exact-model API token tariff not verified",
+    "Local Q4_K_M billable tariff remains undefined"
+  ],
+  "alternative_model_needed": false,
+  "alternative_reason": "Current provider-published exact-model rates are available, so replacing models just to obtain an external rate is unnecessary and unauthorized.",
+  "integration_label": "RATECARD_PUBLIC_REFERENCE",
+  "approval_scope": "Root-approved use as public reference valuation, not actual paid settlement."
+}

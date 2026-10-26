@@ -1,0 +1,47 @@
+{
+  "mode": "DETERMINISTIC_JS_DEMO_NOT_MODEL_INFERENCE",
+  "model_calls": 0,
+  "model_tokens": null,
+  "model_price": "NOT_APPLICABLE_NO_MODEL_CALL",
+  "task_id": "T09",
+  "result": {
+    "accepted": false,
+    "executed": false,
+    "state": "OWNER_RETURN",
+    "reason": "OWNER_DEFINITION_REQUIRED",
+    "result": null,
+    "owner_return_required": true,
+    "missing_fields": [
+      "right"
+    ],
+    "definition_autofilled": false,
+    "receipt": {
+      "version": "safe-typed-js-prior-permit-router-v0.2",
+      "task_id": "T09",
+      "task_sha256": "fdc0d6368d3d307decb90bcb7212960c71701e70027c61e872ec491f14b5f59b",
+      "state": "OWNER_RETURN",
+      "terminal_reason": "OWNER_DEFINITION_REQUIRED",
+      "proposal_attempts": 0,
+      "execution_count": 0,
+      "execution_receipt": null,
+      "prior_permit": null,
+      "authorization_events": [],
+      "last_decision": {
+        "state": "OWNER_RETURN",
+        "reason": "OWNER_DEFINITION_REQUIRED",
+        "owner_return_required": true,
+        "missing_fields": [
+          "right"
+        ],
+        "definition_autofilled": false
+      },
+      "observer_error": null,
+      "model_arithmetic_used": false
+    }
+  },
+  "terminal_replay": {
+    "new_executions": 0,
+    "reason": "TERMINAL_NO_RECALL"
+  },
+  "scope": "Validates host execution only, not model understanding or model selection performance"
+}

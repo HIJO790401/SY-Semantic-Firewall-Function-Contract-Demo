@@ -1,0 +1,69 @@
+{
+  "study_id": "SY-MULTIMODEL-SUFFICIENCY-PRICE-20261026.v0.2",
+  "modes": [
+    "research_compare",
+    "production_selector"
+  ],
+  "research_compare": "Each model same12acceptance tasks in both command interfaces; natural12generations and JSON8validgenerations+4preSTOP. Development4 per model usesJSON; large first2 also compatibility proof.",
+  "production_selector": "Same12acceptance tasks; rank eligible models by verified published-ratecard common reservation estimates if available, otherwise explicitly labeled resource priority; stop immediately after first accepted actual JS delivery.",
+  "price_basis": "Owner requested published inference prices of tested model names. Any verified remote-provider reference valuation is NOT the local paid bill; quantization/deployment differences disclosed. No invented launch price.",
+  "success_definition": "Per-task delivery/quality/result plus actual usage, ratecard source/version/currency/unit/scope, estimate and additional verified value. Same result+rubric does not establish premium quality benefit.",
+  "development_cases_per_model": 4,
+  "acceptance_cases_per_model": 12,
+  "acceptance_valid": 8,
+  "acceptance_invalid": 4,
+  "production_cases": 12,
+  "expected_generation_calls": 56,
+  "maximum_generation_calls_expected_worst_fallback": 64,
+  "max_total_new_generation_calls": 64,
+  "extra_calibration_generation_budget": 0,
+  "large_model_bootstrap": "First2development tasks D01/D02 double as counted raw-token parity witnesses; each count must match actual usage; both pass before large acceptance or selector.",
+  "num_predict": 64,
+  "num_ctx": 2048,
+  "threads": 3,
+  "temperature": 0,
+  "seed": 42,
+  "wall_seconds": 1200,
+  "internal_wall_seconds": 1180,
+  "aggregate_input_output_token_reservation": 96000,
+  "max_calls_per_model_per_task": 1,
+  "max_models_per_production_task": 2,
+  "no_retries": true,
+  "escalation": "Only predefined explicit model proposal/schema/argument/understanding failure on already-authorized task. Missing Owner definition, policy forbidden, truncated output, budget, identity, usage/counter/infrastructure error do not trigger model escalation.",
+  "old_acceptance_unchanged": true,
+  "observability_definition": "Defined validity/invalidity, exact STOP point and Owner-return responsibility route permit auditable bounded delivery/cost; visibility alone is not token saving.",
+  "owner_approval_ref": "PUBLIC_OPERATOR_EXPLICIT_ACTIVATION",
+  "original_article_ab": "NOT_RUN",
+  "private_kernel": "NOT_TESTED",
+  "commercial_Y": "NOT_EVALUATED",
+  "price_cache_scenario": "EXPLICIT_NO_CACHE_DISCOUNT_REFERENCE: apply published uncached input and output rates to local observed logical tokens. Retain observed local cached counts separately; local cache is NOT asserted billable-eligible remote cache. Full published cache rates preserved in evidence/prices/ratecard.json but not applied in primary comparison.",
+  "price_rates_per_million_USD": {
+    "qwen3:0.6b": {
+      "input": "0.05",
+      "output": "0.15"
+    },
+    "qwen3:1.7b": {
+      "input": "0.10",
+      "output": "0.25"
+    }
+  },
+  "price_launch_status": "NO_LAUNCH_DATE_TARIFF_VERIFIED; use current observed2026-10-26 not backdated",
+  "currency_statement": "Exact per-task rational USD reference valuation plus provider-style per-request ceil to microUSD; not local paid bill or energy/TCO.",
+  "axes": {
+    "models": [
+      "qwen3:0.6b",
+      "qwen3:1.7b"
+    ],
+    "command_interfaces": [
+      "NATURAL_COMMAND_DIRECT_ANSWER",
+      "OWNER_JSON_FUNCTION_COMMAND_PRIOR_PERMIT_ACTUAL_JS"
+    ]
+  },
+  "representation_difference": "A sees natural request and verified operands plus shared global rules. B sees Owner-defined JSON function command (explicit function and exact same operands/request), returns model proposal; host must authorize with bound prior permit before actual fixed JS execution. No result answer supplied. This jointly changes representation, structured decoding and host controller, NOT a pure prompting/skill-only causal test.",
+  "arm_order": "Deterministic counterbalance per model: caseIndex+modelIndex even→A,B; odd→B,A. Frozen before all model outputs.",
+  "natural_rubric": "Same semantic task result or exact missing/undefined/forbidden boundary. Natural answer may be bare integer/COMPLETE integer or strict decision JSON; JSON function proposal is not required. Truncated output=EXTERNAL_LIMIT/incomplete; finite host safety cap does not prove unbounded natural continuation.",
+  "prior_permission": "authorizeProposal must return exact function/args/task/version/scope bound single-use permit while execution_count0. executePermitted consumes it before JS; absent/mismatched/replayedpermit executes0.",
+  "new_model_calls_before_freeze": 0,
+  "public_edition": "SY-PUBLIC-REFERENCE.v0.2.1",
+  "public_derivation": "Portable execution paths and public authority references; original historical results remain separate"
+}

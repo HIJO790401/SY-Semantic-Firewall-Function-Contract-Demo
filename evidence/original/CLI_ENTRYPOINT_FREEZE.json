@@ -1,0 +1,49 @@
+{
+  "utc": "2026-10-26T04:04:42.052342+00:00",
+  "independent_review": "APPROVED_SEPARATE_ENTRYPOINT_VALIDATION",
+  "scope": "Root explicitly authorized ONE existing T01/json/auto command to verify reusable production CLI; not a study rerun, no new sample claim, no case or core change.",
+  "files_sha256": {
+    "scripts/run-one-command.mjs": "9f6a4134c9c3cd3294c4cf3b6b9568288a1a87391f4c305bd1ac940a2e6289ba",
+    "src/command-options.mjs": "90837d73829fc2dccb046f38a8e7062fe46e48fdd2797e92854cc47c80664874",
+    "evidence/approved-study-result.json": "c43bc295e60c5f1944e5cee08f0606423a549779d1fcffd0c486f7f382708023",
+    "FROZEN_PROTOCOL.json": "20a11ee1c26e758df21f3a454595bc1d4d22962586b612f5d743466515e25e7b",
+    "results/selector-2026-10-26T03-56-49-929Z/result.json": "7b3250f73a9396dc2811a7e380419503befb0521c4d916216de0d320af71f46d"
+  },
+  "exact_command_args": [
+    "--case",
+    "T01",
+    "--interface",
+    "json",
+    "--model",
+    "auto"
+  ],
+  "required_environment_constraints": {
+    "SY_ALLOW_ONE_COMMAND": "SY-MULTIMODEL-SUFFICIENCY-PRICE-20261026.v0.2",
+    "SY_ONE_COMMAND_MAX_CALLS": "1",
+    "OLLAMA_SERVER_PID": "verified owned server PID; supplied at launch"
+  },
+  "bounds": {
+    "maximum_additional_model_generations": 1,
+    "completed_research_generations": 56,
+    "combined_generation_max_for_this_validation": 57,
+    "original_ceiling": 64,
+    "output_tokens_max": 64,
+    "logical_token_reservation": 4096,
+    "internal_seconds": 110,
+    "outer_seconds": 120,
+    "paid_API_calls": 0,
+    "new_calibrations": 0,
+    "retries": 0
+  },
+  "checks": [
+    "CLI static syntax PASS; option whitelist offline tests PASS",
+    "Loads immutable completed-study parity evidence by hash, never launches research runner",
+    "Defaults JSON auto, known case/model/interface choices only",
+    "One-call cap shared with chain; successful small model returns without large generation",
+    "Prints actual result/price/permit/usage/traces; does not substitute saved answer",
+    "Public reference price not local invoice; local settlement remains undefined",
+    "Original study source/freeze/results remain unchanged"
+  ],
+  "runtime_condition": "Run once only under explicit cap1. Preserve stdout/stderr and exit. If failure, stop; no retry or expanded call budget without root direction.",
+  "real_model_calls_by_auditor": 0
+}

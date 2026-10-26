@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this versioned reference implementation and specify the exact commit used. Citation does not establish conformance."
+title: "Shen-Yao Semantic Firewall | Deterministic Function Contract DEMO: Public Reference Edition"
+version: 0.2.1
+date-released: 2026-10-26
+authors:
+  - family-names: Hsu
+    given-names: Wen-Yao
+url: "https://github.com/HIJO790401/SY-Semantic-Firewall-Function-Contract-Demo"
+license: "LicenseRef-SY-Research-Reproducibility-1.0"

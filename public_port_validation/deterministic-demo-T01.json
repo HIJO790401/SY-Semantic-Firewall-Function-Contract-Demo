@@ -1,0 +1,98 @@
+{
+  "mode": "DETERMINISTIC_JS_DEMO_NOT_MODEL_INFERENCE",
+  "model_calls": 0,
+  "model_tokens": null,
+  "model_price": "NOT_APPLICABLE_NO_MODEL_CALL",
+  "task_id": "T01",
+  "result": {
+    "accepted": true,
+    "executed": true,
+    "state": "COMPLETE",
+    "reason": "DETERMINISTIC_EXECUTION_COMPLETE",
+    "result": 16,
+    "receipt": {
+      "version": "safe-typed-js-prior-permit-router-v0.2",
+      "task_id": "T01",
+      "task_sha256": "7735188e5cc4b30e3a0ca5e42119c633a16b8e67eec7e365c15002d572c86961",
+      "state": "COMPLETE",
+      "terminal_reason": "DETERMINISTIC_EXECUTION_COMPLETE",
+      "proposal_attempts": 1,
+      "execution_count": 1,
+      "execution_receipt": {
+        "execution_id": "T01:execution:1",
+        "prior_permit_id": "T01:permit:1",
+        "prior_permit_sha256": "ccda09688892b4164e8fc3864a8a1f0adead39775ab9a25f481b4132c1434a28",
+        "model_proposal_sha256": "be7113895c5abbd712992b091a50a39b2b7edb06a35bd4afb8f764ab324c56cb",
+        "invocation_index": 1,
+        "function": "add",
+        "arguments": {
+          "left": 12,
+          "right": 4
+        },
+        "result": 16,
+        "output_sha256": "b17ef6d19c7a5b1ee83b907c595526dcb1eb06db8227d650d5dda0a9f4ce8cd9",
+        "task_sha256": "7735188e5cc4b30e3a0ca5e42119c633a16b8e67eec7e365c15002d572c86961",
+        "implementation_version": "safe-typed-js-prior-permit-router-v0.2",
+        "execution_source": "HOST_ALLOWLISTED_JAVASCRIPT",
+        "model_proposal_validated": true,
+        "arguments_repaired": false
+      },
+      "prior_permit": {
+        "permit": {
+          "permit_id": "T01:permit:1",
+          "permit_instance_id": "2f19c859-72b8-4bf3-8bfd-215ad04225b2",
+          "task_sha256": "7735188e5cc4b30e3a0ca5e42119c633a16b8e67eec7e365c15002d572c86961",
+          "model_proposal_sha256": "be7113895c5abbd712992b091a50a39b2b7edb06a35bd4afb8f764ab324c56cb",
+          "function": "add",
+          "arguments": {
+            "left": 12,
+            "right": 4
+          },
+          "registry_version": "safe-typed-js-prior-permit-router-v0.2",
+          "authority": {
+            "ownerRef": "PUBLIC_DEMO_OPERATOR",
+            "scopeRef": "FIXED_RESEARCH_DEMO",
+            "ruleSpecVersion": "public-v0.2.1",
+            "subjectContractRef": "PUBLIC_FIXED_TASK_V1"
+          },
+          "scope": "FIXED_ALLOWLISTED_PURE_JS_ONLY",
+          "max_executions": 1
+        },
+        "issued_before_execution": true,
+        "execution_count_at_issue": 0,
+        "consumed": true
+      },
+      "authorization_events": [
+        {
+          "sequence": 1,
+          "event": "PERMIT_ISSUED",
+          "permit_id": "T01:permit:1",
+          "execution_count": 0
+        },
+        {
+          "sequence": 2,
+          "event": "PERMIT_CONSUMED",
+          "permit_id": "T01:permit:1",
+          "execution_count": 0
+        },
+        {
+          "sequence": 3,
+          "event": "JS_EXECUTED",
+          "permit_id": "T01:permit:1",
+          "execution_count": 1
+        }
+      ],
+      "last_decision": {
+        "state": "COMPLETE",
+        "reason": "DETERMINISTIC_EXECUTION_COMPLETE"
+      },
+      "observer_error": null,
+      "model_arithmetic_used": false
+    }
+  },
+  "terminal_replay": {
+    "new_executions": 0,
+    "reason": "TERMINAL_NO_RECALL"
+  },
+  "scope": "Validates host execution only, not model understanding or model selection performance"
+}

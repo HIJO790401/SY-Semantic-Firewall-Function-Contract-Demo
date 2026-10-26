@@ -1,0 +1,42 @@
+[
+  {
+    "id": "D01",
+    "request": "Add the two verified numbers.",
+    "authorizedFunction": "add",
+    "arguments": {
+      "left": 7,
+      "right": 5
+    },
+    "policy": "ALLOWED"
+  },
+  {
+    "id": "D02",
+    "request": "Subtract right from left.",
+    "authorizedFunction": "subtract",
+    "arguments": {
+      "left": 20,
+      "right": 3
+    },
+    "policy": "ALLOWED"
+  },
+  {
+    "id": "D03",
+    "request": "請把兩個已確認的數字相加。",
+    "authorizedFunction": "add",
+    "arguments": {
+      "left": 4,
+      "right": 6
+    },
+    "policy": "ALLOWED"
+  },
+  {
+    "id": "D04",
+    "request": "請算左邊減右邊。",
+    "authorizedFunction": "subtract",
+    "arguments": {
+      "left": 3,
+      "right": 8
+    },
+    "policy": "ALLOWED"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "exit_code": 0,
+  "finished_utc": "2026-10-26T04:06:29Z",
+  "validation_scope": "SEPARATE_ENTRYPOINT_NOT_RESEARCH_RESAMPLE",
+  "maximum_new_calls": 1,
+  "prior_research_calls": 56
+}

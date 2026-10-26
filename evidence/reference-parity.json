@@ -1,0 +1,76 @@
+{
+  "source_original_result_sha256": "7b3250f73a9396dc2811a7e380419503befb0521c4d916216de0d320af71f46d",
+  "scope": "Historical pinned-format precount calibration, not a new successful run",
+  "parity": {
+    "qwen3:0.6b": {
+      "status": "RAW_PRECOUNT_PARITY_PASS",
+      "modelDigest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollamaVersion": "0.40.11",
+      "renderVersion": "QWEN3_RAW_NOTHINK_V1",
+      "caseHashes": [
+        "17c42e5fd3628197bfb430d8292d5939497d3f336a215f753fb57c5f8b98e561",
+        "7f4af253d0df80e0646d4f9c3467680510c130332858fc212f430a7b8e8c9d26"
+      ],
+      "cases": [
+        {
+          "index": 0,
+          "request_sha256": "c3541fe0be7793b7807ff41aa3ff04f7501d604bb5a0a9c0a0ed0c6da0278401",
+          "rendered_sha256": "17c42e5fd3628197bfb430d8292d5939497d3f336a215f753fb57c5f8b98e561",
+          "input_count": 24,
+          "actual_input": 24,
+          "actual_output": 3,
+          "wall_time_ms": 1232.524183,
+          "raw": {
+            "model": "qwen3:0.6b",
+            "created_at": "2026-10-26T02:38:33.057531445Z",
+            "response": "READY.",
+            "done": true,
+            "done_reason": "stop",
+            "total_duration": 1226546409,
+            "load_duration": 1068631641,
+            "prompt_eval_count": 24,
+            "prompt_eval_cached_count": 0,
+            "prompt_eval_duration": 120739000,
+            "eval_count": 3,
+            "eval_duration": 34833000
+          },
+          "carried_from_prior_attempt": "<ORIGINAL_LOCAL_WORKSPACE>/token_stop_ab_live/results/local-2026-10-26T02-38-29-961Z/result.json"
+        },
+        {
+          "index": 1,
+          "request_sha256": "828bdf93cb7effb3adfc86f24f4a946b934708cfd053f6c6185a3a4d049e5c91",
+          "rendered_sha256": "7f4af253d0df80e0646d4f9c3467680510c130332858fc212f430a7b8e8c9d26",
+          "input_count": 25,
+          "actual_input": 25,
+          "actual_output": 2,
+          "wall_time_ms": 123.16625399999987,
+          "raw": {
+            "model": "qwen3:0.6b",
+            "created_at": "2026-10-26T02:43:43.053699436Z",
+            "response": "2",
+            "done": true,
+            "done_reason": "stop",
+            "total_duration": 120588268,
+            "load_duration": 954978,
+            "prompt_eval_count": 25,
+            "prompt_eval_cached_count": 0,
+            "prompt_eval_duration": 100530000,
+            "eval_count": 2,
+            "eval_duration": 17073000
+          }
+        }
+      ]
+    },
+    "qwen3:1.7b": {
+      "status": "RAW_PRECOUNT_PARITY_PASS",
+      "modelDigest": "8f68893c685c3ddff2aa3fffce2aa60a30bb2da65ca488b61fff134a4d1730e7",
+      "ollamaVersion": "0.40.11",
+      "renderVersion": "QWEN3_RAW_NOTHINK_V1",
+      "caseHashes": [
+        "6932582edcf2505528312b4d434be3fe33de33096a6c4ca3b40421a681b072fb",
+        "7d799eddb2b9de0b9c694a3469605bc8eeb3e30c9e5437a5d517d62b10d22ff9"
+      ],
+      "evidence": "first_two_counted_development_requests_in_adapter_trace"
+    }
+  }
+}

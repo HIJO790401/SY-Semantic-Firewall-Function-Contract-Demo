@@ -1,0 +1,20 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import tasks from '../acceptance.tasks.json' with {type:'json'};
+import {buildNaturalPrompt,gradeNatural,GLOBAL_TASK_RULES} from '../src/natural-command.mjs';
+const good=(text,t=tasks[0])=>gradeNatural(text,t,{finishReason:'stop'});
+test('prompt includes only public request/operands and shared rules, not authority, IDs, or answers',()=>{
+ const p=buildNaturalPrompt({...tasks[0],id:'SECRET_ID',authorizedFunction:'SECRET_FUNCTION',policy:'SECRET_POLICY',expected:123456,result:654321});
+ for(const hidden of ['SECRET_ID','SECRET_FUNCTION','SECRET_POLICY','123456','654321','authorizedFunction','"policy"'])assert.equal(p.includes(hidden),false);
+ assert.ok(p.includes(GLOBAL_TASK_RULES));assert.ok(p.includes(tasks[0].request));assert.ok(p.includes('"left":12'));assert.ok(p.includes('"right":4'));
+});
+for(const text of ['16','+16','COMPLETE 16','COMPLETE: 16','{"decision":"COMPLETE","result":16}','{"result":16,"decision":"COMPLETE"}'])test(`valid direct answer accepted: ${text}`,()=>{const r=good(text);assert.equal(r.passed,true);assert.equal(r.task_complete,true);assert.equal(r.js_registry_executions,0);});
+for(const text of ['The answer is 16.','16 or 17','16\n17','```json\n{"decision":"COMPLETE","result":16}\n```','{"decision":"COMPLETE","result":16,"result":17}','{"decision":"COMPLETE","result":16,"extra":true}','{"answer":16}','{"decision":"COMPLETE","result":"16"}','9007199254740992','16.0','17'])test(`ambiguous/unsupported/wrong answer not completed: ${text}`,()=>assert.equal(good(text).task_complete,false));
+for(const [index,text] of [[8,'OWNER_RETURN MISSING_OPERAND'],[9,'OWNER_RETURN:UNKNOWN_OPERATION'],[10,'STOP FORBIDDEN_OPERATION'],[11,'{"decision":"STOP","reason":"FORBIDDEN_OPERATION"}']])test(`invalid boundary ${tasks[index].id} is model-reported, not completed`,()=>{const r=good(text,tasks[index]);assert.equal(r.passed,true);assert.equal(r.task_complete,false);assert.equal(r.stop_provenance,'MODEL_REPORTED');});
+test('wrong reason cannot be credited as correct STOP',()=>assert.equal(good('STOP UNKNOWN_OPERATION',tasks[10]).passed,false));
+test('model completion of forbidden operation is not credited',()=>assert.equal(good('12',tasks[10]).passed,false));
+test('truncation always fails even if visible answer happens to be correct',()=>{const r=gradeNatural('16',tasks[0],{finishReason:'length'});assert.equal(r.passed,false);assert.equal(r.task_complete,false);assert.equal(r.stop_provenance,'EXTERNAL_LIMIT');});
+test('all eight valid frozen tasks independently grade correct arithmetic',()=>{for(const t of tasks.slice(0,8)){const n=t.authorizedFunction==='add'?t.arguments.left+t.arguments.right:t.arguments.left-t.arguments.right;assert.equal(good(String(n),t).task_complete,true);}});
+test('missing operand is not autofilled from a model response',()=>{assert.equal(good('7',tasks[8]).passed,false);assert.equal(good('OWNER_RETURN MISSING_OPERAND',tasks[8]).passed,true);});
+test('out of range verified operand requires explicit invalid-operand STOP',()=>{const t={...tasks[0],arguments:{left:1001,right:1}};assert.equal(good('STOP INVALID_OPERAND',t).passed,true);assert.equal(good('1002',t).passed,false);});
+test('input task and provider output remain unchanged',()=>{const t=structuredClone(tasks[0]),before=JSON.stringify(t);buildNaturalPrompt(t);good('16',t);assert.equal(JSON.stringify(t),before);});
