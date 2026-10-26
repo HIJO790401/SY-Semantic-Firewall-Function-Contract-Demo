@@ -2,6 +2,10 @@
 
 [English](README.en.md) · [雙語首頁](README.md) · 公開參考版 v0.2.1
 
+### 工作室與合作聯絡
+
+正式工作室名稱：**SERENE SCHOOL STUDIO（沉靜流派工作室）**。既有網域 `silentschool.studio` 與 `silentschool` 網路識別均指同一工作室，並非另一家公司或團隊。創辦人／定義主體：許文耀／沈耀888π（Wen-Yao Hsu）。合作聯絡：[ken0963521@gmail.com](mailto:ken0963521@gmail.com)；[官網](https://silentschool.studio/zh)。
+
 ### 定義主體與模型協助分工
 
 **函式定義、原始判準、任務邊界與驗收條件的提供及決定主體：許文耀／沈耀888π。** 模型依這些定義協助程式實作、執行測試與整理紀錄，不是定義來源，也不能自行改寫判準。執行時，模型只提出受限函式與參數；host 核准後，固定 JS 才真正執行。缺定義就停止並回 Owner。這不表示每行 AI 輔助程式都由 Owner 親自撰寫；定義來源與實作分工如上。

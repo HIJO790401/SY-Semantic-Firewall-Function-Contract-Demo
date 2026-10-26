@@ -2,6 +2,10 @@
 
 [繁體中文](README.zh-TW.md) · [雙語首頁 / Bilingual home](README.md) · Public Reference Edition v0.2.1
 
+### Studio and collaboration
+
+Official studio name: **SERENE SCHOOL STUDIO (沉靜流派工作室)**. The existing `silentschool.studio` domain and `silentschool` online identifiers refer to the same studio, not a separate company or team. Founder / defining principal: Wen-Yao Hsu / Shen-Yao 888π (許文耀／沈耀888π). Collaboration: [ken0963521@gmail.com](mailto:ken0963521@gmail.com); [official website](https://silentschool.studio/en).
+
 ### Defining principal and model assistance
 
 **Wen-Yao Hsu / Shen-Yao 888π (許文耀／沈耀888π) is the principal who supplies and decides the function definitions, original criteria, task boundaries and acceptance conditions.** Models assist implementation, test execution and record preparation under those definitions; they are not the source of the definitions and may not rewrite the criteria. At execution time, the model proposes only bounded functions and arguments; the host authorizes them before fixed JavaScript actually executes. Missing definitions stop and return to the Owner. This does not claim the Owner personally wrote every line of AI-assisted code; definition authority and implementation work are distinct.

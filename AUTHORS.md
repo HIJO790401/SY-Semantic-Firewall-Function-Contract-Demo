@@ -15,3 +15,9 @@ Wen-Yao Hsu / Shen-Yao 888π is the creator of SCBKR and the associated formula 
 No third-party model provider or GitHub endorsement is claimed.
 
 Contact: ken0963521@gmail.com · https://silentschool.studio/zh
+
+## 工作室識別 / Studio identity
+
+正式工作室名稱：**SERENE SCHOOL STUDIO（沉靜流派工作室）**。既有網域 `silentschool.studio` 與 `silentschool` 網路識別均指同一工作室，並非另一家公司或團隊。創辦人／定義主體：許文耀／沈耀888π（Wen-Yao Hsu）。合作聯絡：[ken0963521@gmail.com](mailto:ken0963521@gmail.com)；[官網](https://silentschool.studio/zh)。
+
+Official studio name: **SERENE SCHOOL STUDIO (沉靜流派工作室)**. The existing `silentschool.studio` domain and `silentschool` online identifiers refer to the same studio, not a separate company or team. Founder / defining principal: Wen-Yao Hsu / Shen-Yao 888π (許文耀／沈耀888π). Collaboration: [ken0963521@gmail.com](mailto:ken0963521@gmail.com); [official website](https://silentschool.studio/en).

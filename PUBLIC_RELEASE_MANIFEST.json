@@ -15,8 +15,8 @@
     },
     {
       "path": "AUTHORS.md",
-      "bytes": 1915,
-      "sha256": "f3f32802f284f0de72ed3e8215fc16bac45e45d4766b13dd3e70e63de60cf4f0"
+      "bytes": 2755,
+      "sha256": "0715aab8b88989acb4b0e3c054bfa7ae0cf383465170d2cfdb075e1d695069ed"
     },
     {
       "path": "CITATION.cff",
@@ -55,18 +55,18 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 12841,
-      "sha256": "6822a3a3fa842bb340a444169fbddb7d1d1214ad723cf272a39818035407257b"
+      "bytes": 13288,
+      "sha256": "e51f2f73c4b0b9f2892627b8f55595bd6b149e5a75a7fa9f7bbea8e369bda0c4"
     },
     {
       "path": "README.md",
-      "bytes": 22734,
-      "sha256": "7af8eee901d32cca2783d82634240947b846b7732eb052cdf7b133006f5f99eb"
+      "bytes": 23596,
+      "sha256": "1ad8588666cc1259278cf72240c9b27f8d0ecae2c2a277927bf009aff5053936"
     },
     {
       "path": "README.zh-TW.md",
-      "bytes": 9647,
-      "sha256": "b9304a69a9efbd92564886a2a9a5e8f056eb10fb011b3f325236d4c79cdc6b39"
+      "bytes": 10062,
+      "sha256": "8c06530ec5f11c2119b6becb7ff49423b3557c5da2dbb98dc2cc5832e2361705"
     },
     {
       "path": "RUN.md",
@@ -413,5 +413,6 @@
       "bytes": 4148,
       "sha256": "ef40ab42d8cea2e9c3c184cf26c8c4dea93ff5f8950f4406f99093066a4a12e9"
     }
-  ]
+  ],
+  "documentation_revision": "2026-10-26: canonical studio identity and domain alias clarification only; v0.2.1 tagged release and experiment evidence unchanged."
 }
