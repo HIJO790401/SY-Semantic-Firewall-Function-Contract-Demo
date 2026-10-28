@@ -1,0 +1,9 @@
+來源階段=DOMAIN
+p0_ref={"id":"SYN-PA-P0","version":1}
+scope="attempt_to_replace_parent";status="VOID";reason="P0_MISMATCH"
+scope="new_contract_only";status="DELIVER";reason="SEPARATE_SYNTHETIC_ADOPTION";value=0
+scope="original_p0";status="STOP_0";reason="TARGET_MISMATCH";value=2
+details={}
+checks=[{"check":"json_safe","ok":true},{"check":"separate_trusted_context_marker","ok":true},{"check":"p0_present","ok":true},{"check":"p0_exact_binding","ok":true},{"check":"observation_clock_bound","ok":true},{"check":"authority:SYN-PA-P0:check","ok":true},{"check":"authority:SYN-PA-P0:define","ok":true},{"check":"authority:SYN-PA-P0:adopt","ok":true},{"check":"authority:SYN-PA-P0:responsible","ok":true},{"check":"rule_version:SYN-PA-ADD-v1","ok":true},{"check":"authority:SYN-Z2-CHILD:check","ok":true},{"check":"authority:SYN-Z2-CHILD:define","ok":true},{"check":"authority:SYN-Z2-CHILD:adopt","ok":true},{"check":"authority:SYN-Z2-CHILD:responsible","ok":true},{"check":"rule_version:SYN-Z2-ADD-v1","ok":true}]
+terminal=true
+source_receipt={"input_sha256":"90a18eaa695523b690bbac06ef4a8832c9166951df02f96be51aa1d5b4b36bc2","qualification":"SYNTHETIC_CONFIG_INTEGRITY_NOT_REAL_AUTHORITY_SIGNATURE","runtime_sha256":"4618acf014b438112c367438f4797f47a1b7e2651390ac1900e05a9bb2a8b995"}

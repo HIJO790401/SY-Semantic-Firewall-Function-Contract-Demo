@@ -1,0 +1,306 @@
+{
+  "scope": "Historical fixed ratecard; not bill or CPU energy cost; no zero imputation",
+  "full_observed": {
+    "qwen3:0.6b": {
+      "A": {
+        "n": 320,
+        "calls": 320,
+        "truncated": 0,
+        "input_total": 170020,
+        "input_average": 531.3125,
+        "input_min": 289,
+        "input_max": 1089,
+        "output_total": 49008,
+        "output_average": 153.15,
+        "output_min": 78,
+        "output_max": 232,
+        "total_tokens": 219028,
+        "historical_reference_usd": "0.01585220"
+      },
+      "B": {
+        "n": 319,
+        "calls": 638,
+        "truncated": 0,
+        "input_total": 1469978,
+        "input_average": 4608.081504702194,
+        "input_min": 4049,
+        "input_max": 5669,
+        "output_total": 29447,
+        "output_average": 92.3103448275862,
+        "output_min": 84,
+        "output_max": 111,
+        "total_tokens": 1499425,
+        "historical_reference_usd": "0.07791595"
+      }
+    },
+    "qwen3:1.7b": {
+      "A": {
+        "n": 319,
+        "calls": 319,
+        "truncated": 7,
+        "input_total": 169566,
+        "input_average": 531.5548589341693,
+        "input_min": 289,
+        "input_max": 1089,
+        "output_total": 92102,
+        "output_average": 288.72100313479626,
+        "output_min": 145,
+        "output_max": 512,
+        "total_tokens": 261668,
+        "historical_reference_usd": "0.03998210"
+      },
+      "B": {
+        "n": 320,
+        "calls": 640,
+        "truncated": 0,
+        "input_total": 1476324,
+        "input_average": 4613.5125,
+        "input_min": 4057,
+        "input_max": 5676,
+        "output_total": 34380,
+        "output_average": 107.4375,
+        "output_min": 101,
+        "output_max": 112,
+        "total_tokens": 1510704,
+        "historical_reference_usd": "0.15622740"
+      }
+    }
+  },
+  "all_observed": {
+    "A": {
+      "n": 639,
+      "calls": 639,
+      "truncated": 7,
+      "input_total": 339586,
+      "input_average": 531.4334898278561,
+      "input_min": 289,
+      "input_max": 1089,
+      "output_total": 141110,
+      "output_average": 220.82942097026603,
+      "output_min": 78,
+      "output_max": 512,
+      "total_tokens": 480696,
+      "historical_reference_usd": "0.05583430"
+    },
+    "B": {
+      "n": 639,
+      "calls": 1278,
+      "truncated": 0,
+      "input_total": 2946302,
+      "input_average": 4610.801251956182,
+      "input_min": 4049,
+      "input_max": 5676,
+      "output_total": 63827,
+      "output_average": 99.88575899843505,
+      "output_min": 84,
+      "output_max": 112,
+      "total_tokens": 3010129,
+      "historical_reference_usd": "0.23414335"
+    }
+  },
+  "paired": {
+    "all": {
+      "A": {
+        "n": 638,
+        "calls": 638,
+        "truncated": 7,
+        "input_total": 339066,
+        "input_average": 531.4514106583072,
+        "input_min": 289,
+        "input_max": 1089,
+        "output_total": 140984,
+        "output_average": 220.9780564263323,
+        "output_min": 78,
+        "output_max": 512,
+        "total_tokens": 480050,
+        "historical_reference_usd": "0.05578940"
+      },
+      "B": {
+        "n": 638,
+        "calls": 1276,
+        "truncated": 0,
+        "input_total": 2942003,
+        "input_average": 4611.289968652038,
+        "input_min": 4049,
+        "input_max": 5676,
+        "output_total": 63721,
+        "output_average": 99.87617554858934,
+        "output_min": 84,
+        "output_max": 112,
+        "total_tokens": 3005724,
+        "historical_reference_usd": "0.23368695"
+      },
+      "B_change_percent": {
+        "input_total": 767.6785640553757,
+        "output_total": -54.80267264370425,
+        "total_tokens": 526.1272784084991,
+        "historical_reference_usd": 318.87338813466357
+      }
+    },
+    "qwen3:0.6b": {
+      "A": {
+        "n": 319,
+        "calls": 319,
+        "truncated": 0,
+        "input_total": 169500,
+        "input_average": 531.3479623824452,
+        "input_min": 289,
+        "input_max": 1089,
+        "output_total": 48882,
+        "output_average": 153.23510971786834,
+        "output_min": 78,
+        "output_max": 232,
+        "total_tokens": 218382,
+        "historical_reference_usd": "0.01580730"
+      },
+      "B": {
+        "n": 319,
+        "calls": 638,
+        "truncated": 0,
+        "input_total": 1469978,
+        "input_average": 4608.081504702194,
+        "input_min": 4049,
+        "input_max": 5669,
+        "output_total": 29447,
+        "output_average": 92.3103448275862,
+        "output_min": 84,
+        "output_max": 111,
+        "total_tokens": 1499425,
+        "historical_reference_usd": "0.07791595"
+      },
+      "B_change_percent": {
+        "input_total": 767.2436578171091,
+        "output_total": -39.75901149707459,
+        "total_tokens": 586.6064968724529,
+        "historical_reference_usd": 392.9111866036578
+      }
+    },
+    "qwen3:1.7b": {
+      "A": {
+        "n": 319,
+        "calls": 319,
+        "truncated": 7,
+        "input_total": 169566,
+        "input_average": 531.5548589341693,
+        "input_min": 289,
+        "input_max": 1089,
+        "output_total": 92102,
+        "output_average": 288.72100313479626,
+        "output_min": 145,
+        "output_max": 512,
+        "total_tokens": 261668,
+        "historical_reference_usd": "0.03998210"
+      },
+      "B": {
+        "n": 319,
+        "calls": 638,
+        "truncated": 0,
+        "input_total": 1472025,
+        "input_average": 4614.498432601881,
+        "input_min": 4057,
+        "input_max": 5676,
+        "output_total": 34274,
+        "output_average": 107.44200626959248,
+        "output_min": 101,
+        "output_max": 112,
+        "total_tokens": 1506299,
+        "historical_reference_usd": "0.15577100"
+      },
+      "B_change_percent": {
+        "input_total": 768.1133010155338,
+        "output_total": -62.786910164817265,
+        "total_tokens": 475.65273552746226,
+        "historical_reference_usd": 289.60184682645485
+      }
+    }
+  },
+  "paired_n": 638,
+  "A_only": [
+    "qwen3_0.6b-R03-02"
+  ],
+  "B_only": [
+    "qwen3_1.7b-E03-12"
+  ],
+  "request_records": 1280,
+  "response_records": 1279,
+  "unknown_known_response": [
+    {
+      "id": "qwen3_0.6b-R03-02",
+      "stage": "entry",
+      "input": 669,
+      "output": 28,
+      "done_reason": "stop"
+    }
+  ],
+  "unknown_second_response_usage": null,
+  "by_stage": {
+    "qwen3:0.6b": {
+      "entry": {
+        "n": 319,
+        "calls": 319,
+        "truncated": 0,
+        "input_total": 216551,
+        "input_average": 678.8432601880878,
+        "input_min": 433,
+        "input_max": 1238,
+        "output_total": 9412,
+        "output_average": 29.504702194357368,
+        "output_min": 28,
+        "output_max": 36,
+        "total_tokens": 225963,
+        "historical_reference_usd": "0.01223935"
+      },
+      "domain": {
+        "n": 319,
+        "calls": 319,
+        "truncated": 0,
+        "input_total": 1253427,
+        "input_average": 3929.2382445141066,
+        "input_min": 3568,
+        "input_max": 4452,
+        "output_total": 20035,
+        "output_average": 62.80564263322884,
+        "output_min": 56,
+        "output_max": 75,
+        "total_tokens": 1273462,
+        "historical_reference_usd": "0.06567660"
+      }
+    },
+    "qwen3:1.7b": {
+      "entry": {
+        "n": 320,
+        "calls": 320,
+        "truncated": 0,
+        "input_total": 217220,
+        "input_average": 678.8125,
+        "input_min": 433,
+        "input_max": 1238,
+        "output_total": 11840,
+        "output_average": 37,
+        "output_min": 37,
+        "output_max": 37,
+        "total_tokens": 229060,
+        "historical_reference_usd": "0.02468200"
+      },
+      "domain": {
+        "n": 320,
+        "calls": 320,
+        "truncated": 0,
+        "input_total": 1259104,
+        "input_average": 3934.7,
+        "input_min": 3575,
+        "input_max": 4455,
+        "output_total": 22540,
+        "output_average": 70.4375,
+        "output_min": 64,
+        "output_max": 75,
+        "total_tokens": 1281644,
+        "historical_reference_usd": "0.13154540"
+      }
+    }
+  },
+  "source": {
+    "filename": "comparison.json",
+    "sha256": "161a7b845a53cd28c59e3ea36fafbef4d455b0821e25277192aa07847441c1b6"
+  }
+}

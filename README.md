@@ -1,3 +1,13 @@
+> **Demo v0.3.0 · PIG v0.4｜成本可控性 × 安全交付 / Cost controllability × safe delivery**
+>
+> [新版展示 / New replay](https://hijo790401.github.io/SY-Semantic-Firewall-Function-Contract-Demo/demo/v04/) · [新版說明 / Study and boundaries](docs/PIG-v04-PUBLIC-CANDIDATE.md) · [v0.2.1 歷史發布 / Historical release](https://github.com/HIJO790401/SY-Semantic-Firewall-Function-Contract-Demo/releases/tag/v0.2.1)
+>
+> 639 完整有效 / 640 原定槽位，1 EXECUTION_UNKNOWN；638 成本配對。0.6B / 1.7B 小模型同案例完整判詞與交付 bytes 一致。模型選擇的成本可控性與本版雙層接線開銷分列；不宣稱本版 A/B 更便宜。這是實際紀錄回放，非線上模型服務；私有共用架構與商業函式契約須洽 Owner 設計與授權。
+>
+> 639 complete / 640 planned slots, one EXECUTION_UNKNOWN; 638 cost-matched pairs. Complete same-case verdicts and delivery bytes match across the tested 0.6B / 1.7B models. Model-selection cost control is separate from this two-stage implementation's overhead. This release does not claim cheaper A/B execution. Historical replay, not hosted inference. Private architecture and commercial function contracts require Owner design and licensing.
+>
+> 下方保留 v0.2.1 歷史研究說明，不與新實驗混算。 / The v0.2.1 study below is retained as history, not pooled with the new study.
+
 # 沈耀語意防火牆｜確定性函式契約 DEMO
 # Shen-Yao Semantic Firewall | Deterministic Function Contract DEMO
 

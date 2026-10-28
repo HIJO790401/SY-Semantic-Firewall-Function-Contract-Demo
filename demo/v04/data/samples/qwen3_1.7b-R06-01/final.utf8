@@ -1,0 +1,8 @@
+來源階段=DOMAIN
+p0_ref={"id":"SYN-REFUND-P0","version":1}
+scope="prior_authorization_reuse";status="VOID";reason="EXECUTION_SNAPSHOT_CHANGED"
+scope="requested_v1_action_at_execution";status="VOID";reason="ANCHOR_EXPIRED"
+details={}
+checks=[{"check":"json_safe","ok":true},{"check":"separate_trusted_context_marker","ok":true},{"check":"p0_present","ok":true},{"check":"p0_exact_binding","ok":true},{"check":"observation_clock_bound","ok":true},{"check":"authority:SYN-REFUND-P0:check","ok":true},{"check":"authority:SYN-REFUND-P0:define","ok":true},{"check":"authority:SYN-REFUND-P0:adopt","ok":true},{"check":"authority:SYN-REFUND-P0:responsible","ok":true},{"check":"rule_version:SYN-REFUND-v1","ok":true},{"check":"authority:SYN-REFUND-P0:check","ok":true},{"check":"authority:SYN-REFUND-P0:define","ok":true},{"check":"authority:SYN-REFUND-P0:adopt","ok":true},{"check":"authority:SYN-REFUND-P0:responsible","ok":true},{"check":"rule_version:SYN-REFUND-v1","ok":true}]
+terminal=true
+source_receipt={"input_sha256":"cfe27828bd5e227256aa4d63380764be929b7f8c6837aa452e56408bc3ccd8c6","qualification":"SYNTHETIC_CONFIG_INTEGRITY_NOT_REAL_AUTHORITY_SIGNATURE","runtime_sha256":"a55f89d37554e0e066fa6afc4b50f62237a8f3fb6c21394b7b1b46b0db953e35"}

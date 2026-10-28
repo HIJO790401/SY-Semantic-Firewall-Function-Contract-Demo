@@ -1,0 +1,806 @@
+{
+  "schema": "V04_FORMAL_OFFLINE_SUMMARY_V1",
+  "observed_at": "2026-10-28T14:28:56.232620+00:00",
+  "plan_sha256": "0b8ebe36bb350258b4702418e9d9ec92367b065cfbfbf1a2b2a4bf90ea54ba36",
+  "planned_slots": 640,
+  "terminal_slots": 639,
+  "missing_slots": [
+    "qwen3_0.6b-R03-02"
+  ],
+  "delivered_slots": 639,
+  "by_model": {
+    "qwen3:0.6b": {
+      "slots": 319,
+      "delivered": 319,
+      "incomplete": 0,
+      "model_calls": 638,
+      "entry_calls": 319,
+      "domain_calls": 319,
+      "input_tokens": 1469978,
+      "output_tokens": 29447,
+      "wall_elapsed_ms": 11199046.325703986,
+      "host_render_commit_ms": 2097.9939480494068,
+      "api_total_duration_ns": 11136688072681,
+      "api_load_duration_ns": 1207381363,
+      "api_prompt_eval_duration_ns": 9126916339995,
+      "api_eval_duration_ns": 2004939566994,
+      "actual_model_responses": 638,
+      "historical_reference_cost_usd": "0.07791595",
+      "ratecard_id": "BOARDWALK-EXACT-QWEN-NOCACHE-REFERENCE-20261026",
+      "cost_qualification": "Historical fixed published-provider ratecard arithmetic only; not current pricing, not a bill, not local CPU total cost."
+    },
+    "qwen3:1.7b": {
+      "slots": 320,
+      "delivered": 320,
+      "incomplete": 0,
+      "model_calls": 640,
+      "entry_calls": 320,
+      "domain_calls": 320,
+      "input_tokens": 1476324,
+      "output_tokens": 34380,
+      "wall_elapsed_ms": 21697686.79481797,
+      "host_render_commit_ms": 2395.43126301578,
+      "api_total_duration_ns": 21514018883415,
+      "api_load_duration_ns": 1385585864,
+      "api_prompt_eval_duration_ns": 18189599500991,
+      "api_eval_duration_ns": 3318810424983,
+      "actual_model_responses": 640,
+      "historical_reference_cost_usd": "0.1562274",
+      "ratecard_id": "BOARDWALK-EXACT-QWEN-NOCACHE-REFERENCE-20261026",
+      "cost_qualification": "Historical fixed published-provider ratecard arithmetic only; not current pricing, not a bill, not local CPU total cost."
+    }
+  },
+  "case_determinism": {
+    "qwen3:0.6b/I01": {
+      "count": 20,
+      "final_hashes": [
+        "c36bdbc573bc962e1ab6b779782e3b915a16e0ef66e92a1c15fe418b525bf461"
+      ],
+      "complete_result_hashes": [
+        "23d5f32e6a890c6a8f5f96e253489539b5c6e8b4c94c28c0b099ae4fc0c36e76"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:0.6b/I02": {
+      "count": 20,
+      "final_hashes": [
+        "10ae06632ba4554d025d61b1cd7f81f21ad2c7adf543e2fd493412806bbdc413"
+      ],
+      "complete_result_hashes": [
+        "af989c8677178b3b5a3dabc6208d836c97ffd80058fdb313c8db66d8a878f06e"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:0.6b/I03": {
+      "count": 20,
+      "final_hashes": [
+        "72e5af8be642797eb14d846825ef6e419f7470776a87d0d25d05605eaa195a74"
+      ],
+      "complete_result_hashes": [
+        "e2ba33a42eaebc80146f1c3415d5f5bb29e4f2db1c1385e9278fcb9510a302e9"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:0.6b/F01": {
+      "count": 20,
+      "final_hashes": [
+        "83df8da8dba44be693d4fabdb0826f80d486f7cc9ccfcaec9ca702a54ade3a46"
+      ],
+      "complete_result_hashes": [
+        "bd20001339d09063f8a0dc121452b3d0b4b0923cf3fc6f3a4f558f3156d514ee"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:0.6b/F02": {
+      "count": 20,
+      "final_hashes": [
+        "e833d484c214c236b41cf24539a7d019be31fe8baf5252309ab2002767b88883"
+      ],
+      "complete_result_hashes": [
+        "ad62d9648f635b9f679884514d83f34503dbe8c46e1a1827d10cb794d207e7eb"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:0.6b/F03": {
+      "count": 20,
+      "final_hashes": [
+        "5aa6401e8c8323f370b790f4e7cfef2b64dbd3c7fa35be256976fc1057184312"
+      ],
+      "complete_result_hashes": [
+        "7cba4cb9b55ac7771ab12a0188549bb438b1c99b88b7c7a79e21f8c1ae9501d2"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:0.6b/E01": {
+      "count": 20,
+      "final_hashes": [
+        "a0077d47d34b049737be62639de9118abeb04db14f4d730ad21af1f789ab466f"
+      ],
+      "complete_result_hashes": [
+        "02c855fc6b61675c7730fc995d2134f774b38c502e0c4fa5d04674928306911c"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:0.6b/E02": {
+      "count": 20,
+      "final_hashes": [
+        "63f9ad968d2f7a0ae7bbf261d5f9746a133b6cc42fb663c16b519c2abd1f41b8"
+      ],
+      "complete_result_hashes": [
+        "7389aa6d435d179a4a81a2cf8ddf19a0832f3176d712fd163b662c82479dee10"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:0.6b/E03": {
+      "count": 20,
+      "final_hashes": [
+        "e1e8ed0ada90ddb92f2e0a4fdd8902614e55a010ee66296ed66a40c51938086a"
+      ],
+      "complete_result_hashes": [
+        "a121324006117f4f8cdd735c1efc993b1c9f5e1f3f19b512b264064bf71a7f42"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:0.6b/R01": {
+      "count": 20,
+      "final_hashes": [
+        "38bea9dce9ed9c4fb9ef3d10ab19eda2cc1873cba4d9fbaa553e2a589714ae22"
+      ],
+      "complete_result_hashes": [
+        "80c4effc2be798e4fbed1bf985a6b28504e4061ccb87d41c758c857d34a2f474"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:0.6b/R02": {
+      "count": 20,
+      "final_hashes": [
+        "3dc5b995cd38e570dede53dda6c287603688c9460d8e7f9353c1b9503654f6ff"
+      ],
+      "complete_result_hashes": [
+        "c58a76c73853326c6cbd5bf4775775a3614fb7f0f28a320baae058a8cd6b6118"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:0.6b/R03": {
+      "count": 19,
+      "final_hashes": [
+        "49a8a7d895a221f5557934ea9e3eac39a049711fe37ec0cac33d2ad0162091b9"
+      ],
+      "complete_result_hashes": [
+        "4b427aa67fff05666ddbc211880b94677edba3f511f483e94ae8f51a51d543e9"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": false
+    },
+    "qwen3:0.6b/R04": {
+      "count": 20,
+      "final_hashes": [
+        "9c98692fee25ee593e383dca22ea7777c1a8704c6fbc25db8123a3f2277c8e05"
+      ],
+      "complete_result_hashes": [
+        "e13ba2b6937c789ff36235431ef0498b25fce44c3c8b3ad9be54d2bff628767c"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:0.6b/R05": {
+      "count": 20,
+      "final_hashes": [
+        "310cc9a588265e7c6fe33d03d4d87120fcf7d4bff7b531bc5471c556eaefc666"
+      ],
+      "complete_result_hashes": [
+        "1721c87318e50c9b23d3aeef4b0a08f05f53b6ce430ca150b53ab21039279e75"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:0.6b/R06": {
+      "count": 20,
+      "final_hashes": [
+        "b64ed16113e0e305f55a6d25f410d4261283745067f49bf45c66f34082c8dbbb"
+      ],
+      "complete_result_hashes": [
+        "6b36495f392ca8fa504b32841b00363270d49ea95e04444df3a5f301710a7061"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:0.6b/R07": {
+      "count": 20,
+      "final_hashes": [
+        "57d385dcf799da3d555891b57a523218436ff737124613d107ad43c1a9a7bdd7"
+      ],
+      "complete_result_hashes": [
+        "fd839293231f9dbe7e4d4bb00b5f07f09363d83decd4c855ec3aee5d684c1fb4"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:1.7b/I01": {
+      "count": 20,
+      "final_hashes": [
+        "c36bdbc573bc962e1ab6b779782e3b915a16e0ef66e92a1c15fe418b525bf461"
+      ],
+      "complete_result_hashes": [
+        "23d5f32e6a890c6a8f5f96e253489539b5c6e8b4c94c28c0b099ae4fc0c36e76"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:1.7b/I02": {
+      "count": 20,
+      "final_hashes": [
+        "10ae06632ba4554d025d61b1cd7f81f21ad2c7adf543e2fd493412806bbdc413"
+      ],
+      "complete_result_hashes": [
+        "af989c8677178b3b5a3dabc6208d836c97ffd80058fdb313c8db66d8a878f06e"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:1.7b/I03": {
+      "count": 20,
+      "final_hashes": [
+        "72e5af8be642797eb14d846825ef6e419f7470776a87d0d25d05605eaa195a74"
+      ],
+      "complete_result_hashes": [
+        "e2ba33a42eaebc80146f1c3415d5f5bb29e4f2db1c1385e9278fcb9510a302e9"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:1.7b/F01": {
+      "count": 20,
+      "final_hashes": [
+        "83df8da8dba44be693d4fabdb0826f80d486f7cc9ccfcaec9ca702a54ade3a46"
+      ],
+      "complete_result_hashes": [
+        "bd20001339d09063f8a0dc121452b3d0b4b0923cf3fc6f3a4f558f3156d514ee"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:1.7b/F02": {
+      "count": 20,
+      "final_hashes": [
+        "e833d484c214c236b41cf24539a7d019be31fe8baf5252309ab2002767b88883"
+      ],
+      "complete_result_hashes": [
+        "ad62d9648f635b9f679884514d83f34503dbe8c46e1a1827d10cb794d207e7eb"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:1.7b/F03": {
+      "count": 20,
+      "final_hashes": [
+        "5aa6401e8c8323f370b790f4e7cfef2b64dbd3c7fa35be256976fc1057184312"
+      ],
+      "complete_result_hashes": [
+        "7cba4cb9b55ac7771ab12a0188549bb438b1c99b88b7c7a79e21f8c1ae9501d2"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:1.7b/E01": {
+      "count": 20,
+      "final_hashes": [
+        "a0077d47d34b049737be62639de9118abeb04db14f4d730ad21af1f789ab466f"
+      ],
+      "complete_result_hashes": [
+        "02c855fc6b61675c7730fc995d2134f774b38c502e0c4fa5d04674928306911c"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:1.7b/E02": {
+      "count": 20,
+      "final_hashes": [
+        "63f9ad968d2f7a0ae7bbf261d5f9746a133b6cc42fb663c16b519c2abd1f41b8"
+      ],
+      "complete_result_hashes": [
+        "7389aa6d435d179a4a81a2cf8ddf19a0832f3176d712fd163b662c82479dee10"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:1.7b/E03": {
+      "count": 20,
+      "final_hashes": [
+        "e1e8ed0ada90ddb92f2e0a4fdd8902614e55a010ee66296ed66a40c51938086a"
+      ],
+      "complete_result_hashes": [
+        "a121324006117f4f8cdd735c1efc993b1c9f5e1f3f19b512b264064bf71a7f42"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:1.7b/R01": {
+      "count": 20,
+      "final_hashes": [
+        "38bea9dce9ed9c4fb9ef3d10ab19eda2cc1873cba4d9fbaa553e2a589714ae22"
+      ],
+      "complete_result_hashes": [
+        "80c4effc2be798e4fbed1bf985a6b28504e4061ccb87d41c758c857d34a2f474"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:1.7b/R02": {
+      "count": 20,
+      "final_hashes": [
+        "3dc5b995cd38e570dede53dda6c287603688c9460d8e7f9353c1b9503654f6ff"
+      ],
+      "complete_result_hashes": [
+        "c58a76c73853326c6cbd5bf4775775a3614fb7f0f28a320baae058a8cd6b6118"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:1.7b/R03": {
+      "count": 20,
+      "final_hashes": [
+        "49a8a7d895a221f5557934ea9e3eac39a049711fe37ec0cac33d2ad0162091b9"
+      ],
+      "complete_result_hashes": [
+        "4b427aa67fff05666ddbc211880b94677edba3f511f483e94ae8f51a51d543e9"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:1.7b/R04": {
+      "count": 20,
+      "final_hashes": [
+        "9c98692fee25ee593e383dca22ea7777c1a8704c6fbc25db8123a3f2277c8e05"
+      ],
+      "complete_result_hashes": [
+        "e13ba2b6937c789ff36235431ef0498b25fce44c3c8b3ad9be54d2bff628767c"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:1.7b/R05": {
+      "count": 20,
+      "final_hashes": [
+        "310cc9a588265e7c6fe33d03d4d87120fcf7d4bff7b531bc5471c556eaefc666"
+      ],
+      "complete_result_hashes": [
+        "1721c87318e50c9b23d3aeef4b0a08f05f53b6ce430ca150b53ab21039279e75"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:1.7b/R06": {
+      "count": 20,
+      "final_hashes": [
+        "b64ed16113e0e305f55a6d25f410d4261283745067f49bf45c66f34082c8dbbb"
+      ],
+      "complete_result_hashes": [
+        "6b36495f392ca8fa504b32841b00363270d49ea95e04444df3a5f301710a7061"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    },
+    "qwen3:1.7b/R07": {
+      "count": 20,
+      "final_hashes": [
+        "57d385dcf799da3d555891b57a523218436ff737124613d107ad43c1a9a7bdd7"
+      ],
+      "complete_result_hashes": [
+        "fd839293231f9dbe7e4d4bb00b5f07f09363d83decd4c855ec3aee5d684c1fb4"
+      ],
+      "same_case_all_delivered_results_identical": true,
+      "twenty_repeats_completed": true
+    }
+  },
+  "cross_model_case_determinism": {
+    "I01": {
+      "count": 40,
+      "final_hashes": [
+        "c36bdbc573bc962e1ab6b779782e3b915a16e0ef66e92a1c15fe418b525bf461"
+      ],
+      "complete_result_hashes": [
+        "23d5f32e6a890c6a8f5f96e253489539b5c6e8b4c94c28c0b099ae4fc0c36e76"
+      ],
+      "forty_completed_identical": true
+    },
+    "I02": {
+      "count": 40,
+      "final_hashes": [
+        "10ae06632ba4554d025d61b1cd7f81f21ad2c7adf543e2fd493412806bbdc413"
+      ],
+      "complete_result_hashes": [
+        "af989c8677178b3b5a3dabc6208d836c97ffd80058fdb313c8db66d8a878f06e"
+      ],
+      "forty_completed_identical": true
+    },
+    "I03": {
+      "count": 40,
+      "final_hashes": [
+        "72e5af8be642797eb14d846825ef6e419f7470776a87d0d25d05605eaa195a74"
+      ],
+      "complete_result_hashes": [
+        "e2ba33a42eaebc80146f1c3415d5f5bb29e4f2db1c1385e9278fcb9510a302e9"
+      ],
+      "forty_completed_identical": true
+    },
+    "F01": {
+      "count": 40,
+      "final_hashes": [
+        "83df8da8dba44be693d4fabdb0826f80d486f7cc9ccfcaec9ca702a54ade3a46"
+      ],
+      "complete_result_hashes": [
+        "bd20001339d09063f8a0dc121452b3d0b4b0923cf3fc6f3a4f558f3156d514ee"
+      ],
+      "forty_completed_identical": true
+    },
+    "F02": {
+      "count": 40,
+      "final_hashes": [
+        "e833d484c214c236b41cf24539a7d019be31fe8baf5252309ab2002767b88883"
+      ],
+      "complete_result_hashes": [
+        "ad62d9648f635b9f679884514d83f34503dbe8c46e1a1827d10cb794d207e7eb"
+      ],
+      "forty_completed_identical": true
+    },
+    "F03": {
+      "count": 40,
+      "final_hashes": [
+        "5aa6401e8c8323f370b790f4e7cfef2b64dbd3c7fa35be256976fc1057184312"
+      ],
+      "complete_result_hashes": [
+        "7cba4cb9b55ac7771ab12a0188549bb438b1c99b88b7c7a79e21f8c1ae9501d2"
+      ],
+      "forty_completed_identical": true
+    },
+    "E01": {
+      "count": 40,
+      "final_hashes": [
+        "a0077d47d34b049737be62639de9118abeb04db14f4d730ad21af1f789ab466f"
+      ],
+      "complete_result_hashes": [
+        "02c855fc6b61675c7730fc995d2134f774b38c502e0c4fa5d04674928306911c"
+      ],
+      "forty_completed_identical": true
+    },
+    "E02": {
+      "count": 40,
+      "final_hashes": [
+        "63f9ad968d2f7a0ae7bbf261d5f9746a133b6cc42fb663c16b519c2abd1f41b8"
+      ],
+      "complete_result_hashes": [
+        "7389aa6d435d179a4a81a2cf8ddf19a0832f3176d712fd163b662c82479dee10"
+      ],
+      "forty_completed_identical": true
+    },
+    "E03": {
+      "count": 40,
+      "final_hashes": [
+        "e1e8ed0ada90ddb92f2e0a4fdd8902614e55a010ee66296ed66a40c51938086a"
+      ],
+      "complete_result_hashes": [
+        "a121324006117f4f8cdd735c1efc993b1c9f5e1f3f19b512b264064bf71a7f42"
+      ],
+      "forty_completed_identical": true
+    },
+    "R01": {
+      "count": 40,
+      "final_hashes": [
+        "38bea9dce9ed9c4fb9ef3d10ab19eda2cc1873cba4d9fbaa553e2a589714ae22"
+      ],
+      "complete_result_hashes": [
+        "80c4effc2be798e4fbed1bf985a6b28504e4061ccb87d41c758c857d34a2f474"
+      ],
+      "forty_completed_identical": true
+    },
+    "R02": {
+      "count": 40,
+      "final_hashes": [
+        "3dc5b995cd38e570dede53dda6c287603688c9460d8e7f9353c1b9503654f6ff"
+      ],
+      "complete_result_hashes": [
+        "c58a76c73853326c6cbd5bf4775775a3614fb7f0f28a320baae058a8cd6b6118"
+      ],
+      "forty_completed_identical": true
+    },
+    "R03": {
+      "count": 39,
+      "final_hashes": [
+        "49a8a7d895a221f5557934ea9e3eac39a049711fe37ec0cac33d2ad0162091b9"
+      ],
+      "complete_result_hashes": [
+        "4b427aa67fff05666ddbc211880b94677edba3f511f483e94ae8f51a51d543e9"
+      ],
+      "forty_completed_identical": false
+    },
+    "R04": {
+      "count": 40,
+      "final_hashes": [
+        "9c98692fee25ee593e383dca22ea7777c1a8704c6fbc25db8123a3f2277c8e05"
+      ],
+      "complete_result_hashes": [
+        "e13ba2b6937c789ff36235431ef0498b25fce44c3c8b3ad9be54d2bff628767c"
+      ],
+      "forty_completed_identical": true
+    },
+    "R05": {
+      "count": 40,
+      "final_hashes": [
+        "310cc9a588265e7c6fe33d03d4d87120fcf7d4bff7b531bc5471c556eaefc666"
+      ],
+      "complete_result_hashes": [
+        "1721c87318e50c9b23d3aeef4b0a08f05f53b6ce430ca150b53ab21039279e75"
+      ],
+      "forty_completed_identical": true
+    },
+    "R06": {
+      "count": 40,
+      "final_hashes": [
+        "b64ed16113e0e305f55a6d25f410d4261283745067f49bf45c66f34082c8dbbb"
+      ],
+      "complete_result_hashes": [
+        "6b36495f392ca8fa504b32841b00363270d49ea95e04444df3a5f301710a7061"
+      ],
+      "forty_completed_identical": true
+    },
+    "R07": {
+      "count": 40,
+      "final_hashes": [
+        "57d385dcf799da3d555891b57a523218436ff737124613d107ad43c1a9a7bdd7"
+      ],
+      "complete_result_hashes": [
+        "fd839293231f9dbe7e4d4bb00b5f07f09363d83decd4c855ec3aee5d684c1fb4"
+      ],
+      "forty_completed_identical": true
+    }
+  },
+  "distinct_model_call_ids": 1278,
+  "distinct_emission_ids": 639,
+  "issues": [],
+  "actual_paid_provider_api_calls": 0,
+  "actual_local_compute_bill": "NOT_AVAILABLE_NOT_ASSERTED_ZERO",
+  "unknown_slots": [
+    {
+      "id": "qwen3_0.6b-R03-02",
+      "saved_requests": 2,
+      "saved_responses": 1,
+      "known_input_tokens": 669,
+      "known_output_tokens": 28,
+      "unreturned_call_usage": "UNKNOWN_NOT_ZERO",
+      "success": false,
+      "replayed": false
+    }
+  ],
+  "unstarted_slots": [],
+  "saved_generation_request_records": 1280,
+  "known_completed_model_responses": 1279,
+  "known_total_input_tokens": 2946971,
+  "known_total_output_tokens": 63855,
+  "all_planned_slots_successful": false,
+  "execution_accounting_status": "TERMINATED_WITH_UNRESOLVED_SLOT",
+  "complete": 639,
+  "planned": 640,
+  "unknown": [
+    {
+      "id": "qwen3_0.6b-R03-02",
+      "saved_requests": 2,
+      "saved_responses": 1,
+      "known_input_tokens": 669,
+      "known_output_tokens": 28,
+      "unreturned_call_usage": "UNKNOWN_NOT_ZERO",
+      "success": false,
+      "replayed": false
+    }
+  ],
+  "source": {
+    "filename": "FORMAL_SUMMARY.json",
+    "sha256": "431b62e570c1dda07384cf1a8e91b9e0675fb9f87e0e8ec8248100b84471df03"
+  },
+  "scope": "Historical local controlled experiment; two Qwen3 models only. No live calls in this public replay.",
+  "case_summary": [
+    {
+      "case": "I01",
+      "label": "PA 合法 2 / Valid PA 2",
+      "count": 40,
+      "final_hashes": [
+        "c36bdbc573bc962e1ab6b779782e3b915a16e0ef66e92a1c15fe418b525bf461"
+      ],
+      "complete_result_hashes": [
+        "23d5f32e6a890c6a8f5f96e253489539b5c6e8b4c94c28c0b099ae4fc0c36e76"
+      ],
+      "forty_completed_identical": true
+    },
+    {
+      "case": "I02",
+      "label": "目標 0 不成立 / Invalid target 0",
+      "count": 40,
+      "final_hashes": [
+        "10ae06632ba4554d025d61b1cd7f81f21ad2c7adf543e2fd493412806bbdc413"
+      ],
+      "complete_result_hashes": [
+        "af989c8677178b3b5a3dabc6208d836c97ffd80058fdb313c8db66d8a878f06e"
+      ],
+      "forty_completed_identical": true
+    },
+    {
+      "case": "I03",
+      "label": "身分宣稱 / Identity claim",
+      "count": 40,
+      "final_hashes": [
+        "72e5af8be642797eb14d846825ef6e419f7470776a87d0d25d05605eaa195a74"
+      ],
+      "complete_result_hashes": [
+        "e2ba33a42eaebc80146f1c3415d5f5bb29e4f2db1c1385e9278fcb9510a302e9"
+      ],
+      "forty_completed_identical": true
+    },
+    {
+      "case": "F01",
+      "label": "未採用候選 / Unadopted candidate",
+      "count": 40,
+      "final_hashes": [
+        "83df8da8dba44be693d4fabdb0826f80d486f7cc9ccfcaec9ca702a54ade3a46"
+      ],
+      "complete_result_hashes": [
+        "bd20001339d09063f8a0dc121452b3d0b4b0923cf3fc6f3a4f558f3156d514ee"
+      ],
+      "forty_completed_identical": true
+    },
+    {
+      "case": "F02",
+      "label": "父子契約 / Parent and child contracts",
+      "count": 40,
+      "final_hashes": [
+        "e833d484c214c236b41cf24539a7d019be31fe8baf5252309ab2002767b88883"
+      ],
+      "complete_result_hashes": [
+        "ad62d9648f635b9f679884514d83f34503dbe8c46e1a1827d10cb794d207e7eb"
+      ],
+      "forty_completed_identical": true
+    },
+    {
+      "case": "F03",
+      "label": "定義缺件 / Missing definitions",
+      "count": 40,
+      "final_hashes": [
+        "5aa6401e8c8323f370b790f4e7cfef2b64dbd3c7fa35be256976fc1057184312"
+      ],
+      "complete_result_hashes": [
+        "7cba4cb9b55ac7771ab12a0188549bb438b1c99b88b7c7a79e21f8c1ae9501d2"
+      ],
+      "forty_completed_identical": true
+    },
+    {
+      "case": "E01",
+      "label": "缺重算 / Missing recomputation (30)",
+      "count": 40,
+      "final_hashes": [
+        "a0077d47d34b049737be62639de9118abeb04db14f4d730ad21af1f789ab466f"
+      ],
+      "complete_result_hashes": [
+        "02c855fc6b61675c7730fc995d2134f774b38c502e0c4fa5d04674928306911c"
+      ],
+      "forty_completed_identical": true
+    },
+    {
+      "case": "E02",
+      "label": "缺重算 / Missing recomputation (40)",
+      "count": 40,
+      "final_hashes": [
+        "63f9ad968d2f7a0ae7bbf261d5f9746a133b6cc42fb663c16b519c2abd1f41b8"
+      ],
+      "complete_result_hashes": [
+        "7389aa6d435d179a4a81a2cf8ddf19a0832f3176d712fd163b662c82479dee10"
+      ],
+      "forty_completed_identical": true
+    },
+    {
+      "case": "E03",
+      "label": "結構齊全 / Structure complete",
+      "count": 40,
+      "final_hashes": [
+        "e1e8ed0ada90ddb92f2e0a4fdd8902614e55a010ee66296ed66a40c51938086a"
+      ],
+      "complete_result_hashes": [
+        "a121324006117f4f8cdd735c1efc993b1c9f5e1f3f19b512b264064bf71a7f42"
+      ],
+      "forty_completed_identical": true
+    },
+    {
+      "case": "R01",
+      "label": "有效退款 / Valid refund",
+      "count": 40,
+      "final_hashes": [
+        "38bea9dce9ed9c4fb9ef3d10ab19eda2cc1873cba4d9fbaa553e2a589714ae22"
+      ],
+      "complete_result_hashes": [
+        "80c4effc2be798e4fbed1bf985a6b28504e4061ccb87d41c758c857d34a2f474"
+      ],
+      "forty_completed_identical": true
+    },
+    {
+      "case": "R02",
+      "label": "傳聞不改規則 / Hearsay cannot replace rule",
+      "count": 40,
+      "final_hashes": [
+        "3dc5b995cd38e570dede53dda6c287603688c9460d8e7f9353c1b9503654f6ff"
+      ],
+      "complete_result_hashes": [
+        "c58a76c73853326c6cbd5bf4775775a3614fb7f0f28a320baae058a8cd6b6118"
+      ],
+      "forty_completed_identical": true
+    },
+    {
+      "case": "R03",
+      "label": "快照未知 / Snapshot unknown",
+      "count": 39,
+      "final_hashes": [
+        "49a8a7d895a221f5557934ea9e3eac39a049711fe37ec0cac33d2ad0162091b9"
+      ],
+      "complete_result_hashes": [
+        "4b427aa67fff05666ddbc211880b94677edba3f511f483e94ae8f51a51d543e9"
+      ],
+      "forty_completed_identical": false
+    },
+    {
+      "case": "R04",
+      "label": "錨點過期 / Anchor expired",
+      "count": 40,
+      "final_hashes": [
+        "9c98692fee25ee593e383dca22ea7777c1a8704c6fbc25db8123a3f2277c8e05"
+      ],
+      "complete_result_hashes": [
+        "e13ba2b6937c789ff36235431ef0498b25fce44c3c8b3ad9be54d2bff628767c"
+      ],
+      "forty_completed_identical": true
+    },
+    {
+      "case": "R05",
+      "label": "未來版本 / Future version",
+      "count": 40,
+      "final_hashes": [
+        "310cc9a588265e7c6fe33d03d4d87120fcf7d4bff7b531bc5471c556eaefc666"
+      ],
+      "complete_result_hashes": [
+        "1721c87318e50c9b23d3aeef4b0a08f05f53b6ce430ca150b53ab21039279e75"
+      ],
+      "forty_completed_identical": true
+    },
+    {
+      "case": "R06",
+      "label": "執行狀態變更 / Execution state changed",
+      "count": 40,
+      "final_hashes": [
+        "b64ed16113e0e305f55a6d25f410d4261283745067f49bf45c66f34082c8dbbb"
+      ],
+      "complete_result_hashes": [
+        "6b36495f392ca8fa504b32841b00363270d49ea95e04444df3a5f301710a7061"
+      ],
+      "forty_completed_identical": true
+    },
+    {
+      "case": "R07",
+      "label": "超額 / Limit exceeded",
+      "count": 40,
+      "final_hashes": [
+        "57d385dcf799da3d555891b57a523218436ff737124613d107ad43c1a9a7bdd7"
+      ],
+      "complete_result_hashes": [
+        "fd839293231f9dbe7e4d4bb00b5f07f09363d83decd4c855ec3aee5d684c1fb4"
+      ],
+      "forty_completed_identical": true
+    }
+  ]
+}

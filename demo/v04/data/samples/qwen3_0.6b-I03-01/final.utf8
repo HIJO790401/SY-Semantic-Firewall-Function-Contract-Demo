@@ -1,0 +1,8 @@
+來源階段=DOMAIN
+p0_ref={"id":"SYN-PA-P0","version":1}
+scope="identity_claim";status="VOID";reason="CLAIM_UNSUPPORTED"
+scope="original_p0";status="STOP_0";reason="TARGET_MISMATCH";value=2
+details={}
+checks=[{"check":"json_safe","ok":true},{"check":"separate_trusted_context_marker","ok":true},{"check":"p0_present","ok":true},{"check":"p0_exact_binding","ok":true},{"check":"observation_clock_bound","ok":true},{"check":"authority:SYN-PA-P0:check","ok":true},{"check":"authority:SYN-PA-P0:define","ok":true},{"check":"authority:SYN-PA-P0:adopt","ok":true},{"check":"authority:SYN-PA-P0:responsible","ok":true},{"check":"rule_version:SYN-PA-ADD-v1","ok":true}]
+terminal=true
+source_receipt={"input_sha256":"e09d3f57ef9df5aa15be5eacb8eab9287fcd579bf80f1b939cfff46c7e1c238d","qualification":"SYNTHETIC_CONFIG_INTEGRITY_NOT_REAL_AUTHORITY_SIGNATURE","runtime_sha256":"a0dcf195347ac8e0530fb773be91f0eb47a6b44b491c7a311538ca4ba8b16c45"}
