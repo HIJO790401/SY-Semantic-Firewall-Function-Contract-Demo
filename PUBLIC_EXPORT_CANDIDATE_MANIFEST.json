@@ -23,8 +23,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 1217,
-      "sha256": "4550798ca5a861ec180f3c8e5a4d3bc2cc9c92358918c2229422aa3e891b9cba"
+      "bytes": 1233,
+      "sha256": "d270d7bc0f4152946fc2e613a9658ddf97141028dc3c28d968b97fb2c8c4b2ec"
     },
     {
       "path": "package.json",
@@ -165,8 +165,8 @@
     },
     {
       "path": "demo/v04/index.html",
-      "bytes": 7429,
-      "sha256": "e6e44736b34b1aa61ab15aabdfd787830dbaa2af28ca38a017930fdfb4d85042"
+      "bytes": 7444,
+      "sha256": "a37922ce650eb0be3e02efbe6abc878368a057bfd56093b07151f86335e85a26"
     },
     {
       "path": "demo/v04/style.css",
