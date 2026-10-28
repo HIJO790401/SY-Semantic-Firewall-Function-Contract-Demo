@@ -8,18 +8,18 @@
   "modified_existing_files": [
     {
       "path": "README.md",
-      "bytes": 25000,
-      "sha256": "17ca2c1d1386626e5dee32c01dc76c1b172c2399e7c0cca520a8187ba3b307b9"
+      "bytes": 25148,
+      "sha256": "3ef04c8d2c83cd793b2b1b8f77f6cb91a88cc0527597ad76a4dc6ae55d35a572"
     },
     {
       "path": "README.zh-TW.md",
-      "bytes": 11466,
-      "sha256": "f90a4c3358424815e499c28e60268848df1f2d3df1c1c55bdf090138ad100df9"
+      "bytes": 11614,
+      "sha256": "56a2993d5e71bad845269a075ee2a53e778ec281a74e43f259aea345c5236cd3"
     },
     {
       "path": "README.en.md",
-      "bytes": 14692,
-      "sha256": "d7f7a07c8127ea8855572ed1446151dddf9be083d79bec178abefb432908b09e"
+      "bytes": 14840,
+      "sha256": "018f5d5cb815e5828811714ee288d6f749406eac0053c5924cb673f511e749c9"
     },
     {
       "path": "index.html",
@@ -35,8 +35,8 @@
   "added_files": [
     {
       "path": "demo/v04/app.mjs",
-      "bytes": 20434,
-      "sha256": "056bbcdc51fd7c9489a2fbe8ee7777f4f7a1359e3832574925b0569b558dbee6"
+      "bytes": 21244,
+      "sha256": "0b716d2b7f030eb190b8b0508eef6b290a12bc264f4485ce71b7dbf417982449"
     },
     {
       "path": "demo/v04/data/B_stage_costs.csv",
@@ -180,8 +180,8 @@
     },
     {
       "path": "docs/PIG-v04-PUBLIC-CANDIDATE.md",
-      "bytes": 6661,
-      "sha256": "762706a0c136a589d5c6d5b452c7d1fbc2be121724acf582657de712efa1c0b5"
+      "bytes": 6718,
+      "sha256": "cd3136845258ef01c4c55aaa03a83d0c63ebdfdd5e5823d0a29e5a4f7ad7b322"
     },
     {
       "path": "tests/v04-public-evidence.test.mjs",
@@ -205,8 +205,8 @@
     },
     {
       "path": "RELEASE_NOTES_v0.3.0.md",
-      "bytes": 3757,
-      "sha256": "acf3aef7d6052b5f2c924cf2490b48d8abf1aede58fa37579eb3816c57aee04e"
+      "bytes": 4355,
+      "sha256": "440271a1137d50596d47cb16e0418ded00ba8c847f99f35446e7ea1ea4193c89"
     }
   ],
   "preserved_tracked_file_count": 78,

@@ -47,13 +47,13 @@ Tested in-memory: FINAL_ANSWER, AUDIT_LOG_VIEW, STREAM and ERROR_FALLBACK. Entry
 
 ## 內部設計與公開入口 / Internal design and public evidence
 
-定義主體：許文耀／沈耀888π；SERENE SCHOOL STUDIO。模型依主體定義執行，不自行定規、改判詞或創造授權。本公開展示是可檢查的最小展示，不含完整內部 Host、母核、函式庫、系統提示或私人規則。實際需求請找許文耀／沈耀888π設計對應函式契約、交付整合與使用授權。流程為企業需求 → Owner 共用架構／領域函式設計 → API／Agent 接入 → 驗收與授權；各企業 adapter 待配置及驗收，不抹去已落地的本地實作與639筆完整紀錄。觀看 Demo 不等於取得完整私有設計。
+我是沈耀888π／許文耀，SERENE SCHOOL STUDIO 的創辦人與定義者。模型依我的定義執行，不自行定規、改判詞或創造授權。本公開展示是可檢查的最小展示，不含完整內部 Host、母核、函式庫、系統提示或私人規則。與我合作：沈耀888π／許文耀。我依實際需求設計對應函式契約、交付整合與使用授權。流程為企業需求 → 我的共用架構／領域函式設計 → API／Agent 接入 → 驗收與授權；各企業 adapter 待配置及驗收，不抹去已落地的本地實作與639筆完整紀錄。觀看 Demo 不等於取得完整私有設計。
 
-The definition authority is Wen-Yao Hsu / Shen-Yao 888π, SERENE SCHOOL STUDIO. The public evidence window is not the private system or its capability ceiling. Existing research-and-reproducibility licensing remains unchanged; commercial use requires a separate agreement. See the unchanged repository LICENSE.
+I am Wen-Yao Hsu / Shen-Yao 888π, the defining principal at SERENE SCHOOL STUDIO. The public evidence window is not the private system or its capability ceiling. Existing research-and-reproducibility licensing remains unchanged; commercial use requires a separate agreement. See the unchanged repository LICENSE.
 
 - [中文產品與合作](https://silentschool.studio/zh/products/deterministic-function-contract)
 - [English product and collaboration](https://silentschool.studio/en/products/deterministic-function-contract)
 - [Historical v0.2.1 Demo](../demo/index.html)
-- [New local candidate](../demo/v04/index.html)
+- [My current Demo](../demo/v04/index.html)
 
-- [合作／函式契約設計](https://silentschool.studio/zh/#contact) · [Contract design and licensing](https://silentschool.studio/en/#contact)
+- [與我合作：沈耀888π／許文耀](https://silentschool.studio/zh/#contact) · [Work with me: Wen-Yao Hsu / Shen-Yao 888π](https://silentschool.studio/en/#contact)
