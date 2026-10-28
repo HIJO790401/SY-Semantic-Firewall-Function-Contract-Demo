@@ -1,4 +1,4 @@
-> **Demo v0.3.0 · PIG v0.4｜成本可控性 × 安全交付 / Cost controllability × safe delivery**
+> **沈耀語意防火牆｜確定性函式契約 DEMO / Shen-Yao Semantic Firewall | Deterministic Function Contract DEMO · v0.3.0 · PIG v0.4**
 >
 > [新版展示 / New replay](https://hijo790401.github.io/SY-Semantic-Firewall-Function-Contract-Demo/demo/v04/) · [新版說明 / Study and boundaries](docs/PIG-v04-PUBLIC-CANDIDATE.md) · [v0.2.1 歷史發布 / Historical release](https://github.com/HIJO790401/SY-Semantic-Firewall-Function-Contract-Demo/releases/tag/v0.2.1)
 >

@@ -8,18 +8,18 @@
   "modified_existing_files": [
     {
       "path": "README.md",
-      "bytes": 25148,
-      "sha256": "3ef04c8d2c83cd793b2b1b8f77f6cb91a88cc0527597ad76a4dc6ae55d35a572"
+      "bytes": 25191,
+      "sha256": "110b4f21602764b58688da0236a9cd180b84aac7f8644a0c60c2bae6f33b8d4c"
     },
     {
       "path": "README.zh-TW.md",
-      "bytes": 11614,
-      "sha256": "56a2993d5e71bad845269a075ee2a53e778ec281a74e43f259aea345c5236cd3"
+      "bytes": 11657,
+      "sha256": "a3aa20a5bb47138aa71d24a210069307ee99c6aef78e6b14e63e29626ce26d6f"
     },
     {
       "path": "README.en.md",
-      "bytes": 14840,
-      "sha256": "018f5d5cb815e5828811714ee288d6f749406eac0053c5924cb673f511e749c9"
+      "bytes": 14883,
+      "sha256": "4db93e805e9a6afc876f9799c4ac614c5090d32cec21b66687b9835f12850b77"
     },
     {
       "path": "index.html",
@@ -35,8 +35,8 @@
   "added_files": [
     {
       "path": "demo/v04/app.mjs",
-      "bytes": 21244,
-      "sha256": "0b716d2b7f030eb190b8b0508eef6b290a12bc264f4485ce71b7dbf417982449"
+      "bytes": 21431,
+      "sha256": "14b64ade41867222b075bbfae3b91fe1cc7c88df56616af41cf3a9fc5d7f3898"
     },
     {
       "path": "demo/v04/data/B_stage_costs.csv",
@@ -165,8 +165,8 @@
     },
     {
       "path": "demo/v04/index.html",
-      "bytes": 7444,
-      "sha256": "a37922ce650eb0be3e02efbe6abc878368a057bfd56093b07151f86335e85a26"
+      "bytes": 7488,
+      "sha256": "1326b44874cfdfa98107a4be757817938f1acdb6ba7410b6ad836f075d39ed51"
     },
     {
       "path": "demo/v04/style.css",
@@ -200,13 +200,13 @@
     },
     {
       "path": "tests/v04-playback.test.mjs",
-      "bytes": 867,
-      "sha256": "fe4193e573749dfd6b47fabd845d65a18afa0a4944c69080be057d7e9f0b4715"
+      "bytes": 1576,
+      "sha256": "6a50844b0edf8f6415bf736e0c2741bd79aaa244209126266ff8fbf8a0344b61"
     },
     {
       "path": "RELEASE_NOTES_v0.3.0.md",
-      "bytes": 4355,
-      "sha256": "440271a1137d50596d47cb16e0418ded00ba8c847f99f35446e7ea1ea4193c89"
+      "bytes": 4402,
+      "sha256": "65e24cefcd6db20eb0d19bc7d17276f7e65ef4b9bb59e8bcf9762d24aea6f34c"
     }
   ],
   "preserved_tracked_file_count": 78,
