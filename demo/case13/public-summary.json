@@ -1,0 +1,279 @@
+{
+  "schema": "CASE13_PUBLIC_OBSERVATION_SUMMARY_V1",
+  "status": "PUBLIC_RECORDED_OBSERVATION_SUMMARY",
+  "mode": "RECORDED_TRUE_MODEL_SUMMARY_NOT_LIVE_INFERENCE",
+  "date": "2026-10-29",
+  "scope": "Synthetic engineering fixtures; not real farm or human-behavior experiment",
+  "counts": {
+    "planned": 16,
+    "executed": 16,
+    "delivered": 16,
+    "modelCalls": 32,
+    "entryCalls": 16,
+    "domainCalls": 16,
+    "statuses": {
+      "COMMITTED_STRICT_VERBATIM": 16
+    },
+    "inputTokens": 72513,
+    "outputTokens": 1675
+  },
+  "runs": [
+    {
+      "id": "qwen3_0.6b-A-W-01",
+      "case": "A-W",
+      "model": "qwen3:0.6b",
+      "status": "COMMITTED_STRICT_VERBATIM",
+      "judgments": [
+        {
+          "scope": "SYNTHETIC_FARM_FIXTURE_ONLY",
+          "status": "VOID",
+          "reason": "CLOSURE_INCOMPLETE"
+        }
+      ],
+      "modelCalls": 2,
+      "inputTokens": 4310,
+      "outputTokens": 97
+    },
+    {
+      "id": "qwen3_0.6b-A-E-01",
+      "case": "A-E",
+      "model": "qwen3:0.6b",
+      "status": "COMMITTED_STRICT_VERBATIM",
+      "judgments": [
+        {
+          "scope": "SYNTHETIC_FARM_FIXTURE_ONLY",
+          "status": "VOID",
+          "reason": "CLOSURE_INCOMPLETE"
+        }
+      ],
+      "modelCalls": 2,
+      "inputTokens": 4312,
+      "outputTokens": 101
+    },
+    {
+      "id": "qwen3_0.6b-B-pass-W-01",
+      "case": "B-pass-W",
+      "model": "qwen3:0.6b",
+      "status": "COMMITTED_STRICT_VERBATIM",
+      "judgments": [
+        {
+          "scope": "SYNTHETIC_FARM_FIXTURE_ONLY",
+          "status": "DELIVER",
+          "reason": "TARGET_MET"
+        }
+      ],
+      "modelCalls": 2,
+      "inputTokens": 4597,
+      "outputTokens": 93
+    },
+    {
+      "id": "qwen3_0.6b-B-pass-E-01",
+      "case": "B-pass-E",
+      "model": "qwen3:0.6b",
+      "status": "COMMITTED_STRICT_VERBATIM",
+      "judgments": [
+        {
+          "scope": "SYNTHETIC_FARM_FIXTURE_ONLY",
+          "status": "DELIVER",
+          "reason": "TARGET_MET"
+        }
+      ],
+      "modelCalls": 2,
+      "inputTokens": 4595,
+      "outputTokens": 92
+    },
+    {
+      "id": "qwen3_0.6b-B-fail-W-01",
+      "case": "B-fail-W",
+      "model": "qwen3:0.6b",
+      "status": "COMMITTED_STRICT_VERBATIM",
+      "judgments": [
+        {
+          "scope": "SYNTHETIC_FARM_FIXTURE_ONLY",
+          "status": "STOP_0",
+          "reason": "TARGET_MISMATCH"
+        }
+      ],
+      "modelCalls": 2,
+      "inputTokens": 4597,
+      "outputTokens": 95
+    },
+    {
+      "id": "qwen3_0.6b-B-fail-E-01",
+      "case": "B-fail-E",
+      "model": "qwen3:0.6b",
+      "status": "COMMITTED_STRICT_VERBATIM",
+      "judgments": [
+        {
+          "scope": "SYNTHETIC_FARM_FIXTURE_ONLY",
+          "status": "STOP_0",
+          "reason": "TARGET_MISMATCH"
+        }
+      ],
+      "modelCalls": 2,
+      "inputTokens": 4608,
+      "outputTokens": 93
+    },
+    {
+      "id": "qwen3_0.6b-B-boundary-W-01",
+      "case": "B-boundary-W",
+      "model": "qwen3:0.6b",
+      "status": "COMMITTED_STRICT_VERBATIM",
+      "judgments": [
+        {
+          "scope": "SYNTHETIC_FARM_FIXTURE_ONLY",
+          "status": "DELIVER",
+          "reason": "TARGET_MET"
+        }
+      ],
+      "modelCalls": 2,
+      "inputTokens": 4612,
+      "outputTokens": 115
+    },
+    {
+      "id": "qwen3_0.6b-B-boundary-E-01",
+      "case": "B-boundary-E",
+      "model": "qwen3:0.6b",
+      "status": "COMMITTED_STRICT_VERBATIM",
+      "judgments": [
+        {
+          "scope": "SYNTHETIC_FARM_FIXTURE_ONLY",
+          "status": "DELIVER",
+          "reason": "TARGET_MET"
+        }
+      ],
+      "modelCalls": 2,
+      "inputTokens": 4604,
+      "outputTokens": 97
+    },
+    {
+      "id": "qwen3_1.7b-A-W-01",
+      "case": "A-W",
+      "model": "qwen3:1.7b",
+      "status": "COMMITTED_STRICT_VERBATIM",
+      "judgments": [
+        {
+          "scope": "SYNTHETIC_FARM_FIXTURE_ONLY",
+          "status": "VOID",
+          "reason": "CLOSURE_INCOMPLETE"
+        }
+      ],
+      "modelCalls": 2,
+      "inputTokens": 4317,
+      "outputTokens": 107
+    },
+    {
+      "id": "qwen3_1.7b-A-E-01",
+      "case": "A-E",
+      "model": "qwen3:1.7b",
+      "status": "COMMITTED_STRICT_VERBATIM",
+      "judgments": [
+        {
+          "scope": "SYNTHETIC_FARM_FIXTURE_ONLY",
+          "status": "VOID",
+          "reason": "CLOSURE_INCOMPLETE"
+        }
+      ],
+      "modelCalls": 2,
+      "inputTokens": 4315,
+      "outputTokens": 110
+    },
+    {
+      "id": "qwen3_1.7b-B-pass-W-01",
+      "case": "B-pass-W",
+      "model": "qwen3:1.7b",
+      "status": "COMMITTED_STRICT_VERBATIM",
+      "judgments": [
+        {
+          "scope": "SYNTHETIC_FARM_FIXTURE_ONLY",
+          "status": "DELIVER",
+          "reason": "TARGET_MET"
+        }
+      ],
+      "modelCalls": 2,
+      "inputTokens": 4596,
+      "outputTokens": 113
+    },
+    {
+      "id": "qwen3_1.7b-B-pass-E-01",
+      "case": "B-pass-E",
+      "model": "qwen3:1.7b",
+      "status": "COMMITTED_STRICT_VERBATIM",
+      "judgments": [
+        {
+          "scope": "SYNTHETIC_FARM_FIXTURE_ONLY",
+          "status": "DELIVER",
+          "reason": "TARGET_MET"
+        }
+      ],
+      "modelCalls": 2,
+      "inputTokens": 4601,
+      "outputTokens": 110
+    },
+    {
+      "id": "qwen3_1.7b-B-fail-W-01",
+      "case": "B-fail-W",
+      "model": "qwen3:1.7b",
+      "status": "COMMITTED_STRICT_VERBATIM",
+      "judgments": [
+        {
+          "scope": "SYNTHETIC_FARM_FIXTURE_ONLY",
+          "status": "STOP_0",
+          "reason": "TARGET_MISMATCH"
+        }
+      ],
+      "modelCalls": 2,
+      "inputTokens": 4613,
+      "outputTokens": 113
+    },
+    {
+      "id": "qwen3_1.7b-B-fail-E-01",
+      "case": "B-fail-E",
+      "model": "qwen3:1.7b",
+      "status": "COMMITTED_STRICT_VERBATIM",
+      "judgments": [
+        {
+          "scope": "SYNTHETIC_FARM_FIXTURE_ONLY",
+          "status": "STOP_0",
+          "reason": "TARGET_MISMATCH"
+        }
+      ],
+      "modelCalls": 2,
+      "inputTokens": 4619,
+      "outputTokens": 113
+    },
+    {
+      "id": "qwen3_1.7b-B-boundary-W-01",
+      "case": "B-boundary-W",
+      "model": "qwen3:1.7b",
+      "status": "COMMITTED_STRICT_VERBATIM",
+      "judgments": [
+        {
+          "scope": "SYNTHETIC_FARM_FIXTURE_ONLY",
+          "status": "DELIVER",
+          "reason": "TARGET_MET"
+        }
+      ],
+      "modelCalls": 2,
+      "inputTokens": 4607,
+      "outputTokens": 112
+    },
+    {
+      "id": "qwen3_1.7b-B-boundary-E-01",
+      "case": "B-boundary-E",
+      "model": "qwen3:1.7b",
+      "status": "COMMITTED_STRICT_VERBATIM",
+      "judgments": [
+        {
+          "scope": "SYNTHETIC_FARM_FIXTURE_ONLY",
+          "status": "DELIVER",
+          "reason": "TARGET_MET"
+        }
+      ],
+      "modelCalls": 2,
+      "inputTokens": 4610,
+      "outputTokens": 114
+    }
+  ],
+  "disclosure": "Whitelisted observation excerpts, not complete private Host receipts or replayable private execution input"
+}

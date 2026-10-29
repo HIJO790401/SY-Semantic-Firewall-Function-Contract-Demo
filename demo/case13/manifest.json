@@ -1,0 +1,22 @@
+{
+  "demoVersion": "0.4.0",
+  "engineeringStandard": "PIG v0.4",
+  "mode": "recorded_true_model_summary",
+  "models": [
+    "qwen3:0.6b",
+    "qwen3:1.7b"
+  ],
+  "runs": 16,
+  "modelCalls": 32,
+  "files": {
+    "docs/CASE13-TRUE-MODEL-20261029.en.md": "a73bc36b54cded3ac46fe4a4b52b9720feda276540bf9de21ed89c429ca22940",
+    "docs/references-case13.bib": "3f1e75b7e93e8210d15f9fb5e4c4e7545429f0c3ee7c9785300e2c0f32696703",
+    "docs/CASE13-TRUE-MODEL-20261029.zh-TW.md": "74689a730c8abd5f1b9c74be49c89317cdfefac82d098f566d3da6aea88c47d1",
+    "docs/CASE13-TRUE-MODEL-20261029.md": "c29f825f247d8e0722fc62c9388173ebe539947a10f7392622b8bed60e323391",
+    "demo/case13/app.js": "bb2dc532b7d24c57be481674c31ba21efe806b86aa85b496a883f3edb314d3a4",
+    "demo/case13/styles.css": "880b5d421b024d6d2018197808eef68c6bc61493b91a2f537df9c0813126de57",
+    "demo/case13/public-summary.json": "1e8f05d5d3932514f4929b794f096d35238745ef7da16e2de2fc323c32da0739",
+    "demo/case13/index.html": "c3b713f81362ad2244c5a541d28cacd16370087231f704eded6880cf0a5c15e0"
+  },
+  "integrityScope": "Public artifact integrity only; not full private Host receipt verification"
+}
