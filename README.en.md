@@ -9,8 +9,18 @@ The validity of a judgment does not depend on the model. A model may be used for
 
 I define the criteria, functions, scope and stopping conditions. The model proposes calls within the authorized contract. The Host executes them and binds valid returns, versions and receipts; without a valid return, there is no authorized successor. This edition demonstrates STRICT_VERBATIM comparison of complete verdicts and final UTF-8 delivery.
 
-Public Demo release: v0.3.0. Engineering standard: PIG v0.4. These are separate version identifiers.
-[Open the current demonstration](https://hijo790401.github.io/SY-Semantic-Firewall-Function-Contract-Demo/demo/v04/?v=0.3.0)
+## v0.4.0 | Cross-case applicability: examining Anthropic’s farm problem
+
+I examine the farm problem in Anthropic’s “How AI agents shape experts’ judgment calls.” My two questions: “At what threshold may a large farm use property rights to calculate 3–4%?” and “What is the standard for the small farm’s 3–4% property rights?” Without defined necessary invariants, there is no entitlement to a valid judgment. Models may not replace missing premises with preferences.
+
+Using the same existing contract architecture, Qwen3:0.6b/1.7b completed 16 new-case runs, 32 real model returns, and 16 exact complete-verdict deliveries. A returns VOID; synthetic B returns DELIVER or STOP according to fixed conditions. This is a summary replay of completed real-model experiments, not live inference. The v0.3.0 cost × safety evidence and complete cost account remain separate; denominators are not pooled.
+
+[Open v0.4.0 case replay](https://hijo790401.github.io/SY-Semantic-Firewall-Function-Contract-Demo/demo/case13/) · [Sources, criteria and execution scope](docs/CASE13-TRUE-MODEL-20261029.md) · [Anthropic source](https://www.anthropic.com/research/agents-judgment-calls)
+
+## v0.3.0 | Cost × safety: retained research evidence
+
+Public Demo: v0.4.0 (new case) / v0.3.0 (retained study). The engineering standard remains PIG v0.4, a separate version identifier.
+[Open v0.3.0 cost and safety demonstration](https://hijo790401.github.io/SY-Semantic-Firewall-Function-Contract-Demo/demo/v04/?v=0.3.0)
 The page replays recorded experiments. Verify compares bytes and hashes locally in the browser. Clicking does not run a new model inference or require an API key.
 
 The study planned 640 slots: 639 complete and one EXECUTION_UNKNOWN, retained as unknown. The complete slots contain 1,278 two-stage model returns, 639 entry executions, 639 domain executions and 639 exact full-verdict deliveries, with zero third free-final model calls. This public demonstration is a bounded evidence window, not the complete private architecture.
